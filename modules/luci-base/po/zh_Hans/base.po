@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-04 03:15+0000\n"
+"PO-Revision-Date: 2024-04-08 17:22+0000\n"
 "Last-Translator: try496 <pinghejk@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "openwrt/luci/zh_Hans/>\n"
@@ -31,7 +31,7 @@ msgstr "%.1f dB"
 msgid "%d Bit"
 msgstr "%d Bit"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4094
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4132
 msgid "%d invalid field(s)"
 msgstr "%d 个无效字段"
 
@@ -53,6 +53,8 @@ msgid ""
 "connection over Yggdrasil network, utilizing NAT traversal to bypass "
 "intermediary nodes."
 msgstr ""
+"%s 是一个独立的项目，其主要目标是通过 Yggdrasil 网络减少连接延迟，并利用 NAT "
+"穿透技术绕开中间节点。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:35
 msgid "%s is untagged in multiple VLANs!"
@@ -406,7 +408,7 @@ msgid ""
 "default."
 msgstr "Yggdrasil 设置了默认 MTU 值 65535。推荐使用该默认值。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2776
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2794
 msgid "A directory with the same name already exists."
 msgstr "已存在同名的目录。"
 
@@ -776,7 +778,7 @@ msgstr "添加 peer 地址"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:321
 msgctxt "Dnsmasq instance"
 msgid "Add server instance"
-msgstr ""
+msgstr "添加服务器实例"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1134
 msgid "Add static forward and reverse DNS entries for this host."
@@ -796,7 +798,7 @@ msgstr "添加 IPv6 地址到 IPv4 集或者反过来操作将导致静默失败
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:371
 msgid "Additional configuration settings (in TOML format)."
-msgstr ""
+msgstr "额外的配置设置（以 TOML 格式）。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:612
 msgid "Additional hosts files"
@@ -933,7 +935,7 @@ msgstr "顺序分配 IP"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:350
 msgid "Allocate listen addresses"
-msgstr ""
+msgstr "分配监听地址"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:24
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
@@ -949,6 +951,7 @@ msgid ""
 "Allow Yggdrasil Jumper to automatically configure Yggdrasil with proper "
 "listen address and random port."
 msgstr ""
+"允许 Yggdrasil Jumper 自动配置 Yggdrasil，设置正确的监听地址和随机端口。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1084
 msgid "Allow all except listed"
@@ -1112,7 +1115,7 @@ msgstr "任意数据包"
 msgid "Any zone"
 msgstr "任意区域"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4711
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4749
 msgid "Apply and keep settings"
 msgstr "应用并保留设置"
 
@@ -1120,21 +1123,21 @@ msgstr "应用并保留设置"
 msgid "Apply backup?"
 msgstr "应用备份？"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4737
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4775
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "应用请求失败，状态 <code>%h</code>"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2175
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4453
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4574
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4491
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4612
 msgid "Apply unchecked"
 msgstr "强制应用"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4707
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4745
 msgid "Apply with revert after connectivity loss"
 msgstr "连接丢失后应用还原"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4647
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4685
 msgid "Applying configuration changes… %ds"
 msgstr "正在等待配置被应用… %ds"
 
@@ -1221,7 +1224,7 @@ msgstr "需要授权"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:360
 msgid "Autofill listen addresses"
-msgstr ""
+msgstr "自动填充监听地址"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:120
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:18
@@ -1516,8 +1519,8 @@ msgstr "广播"
 msgid "Broadcast policy (broadcast, 3)"
 msgstr "广播策略（broadcast，3）"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2866
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4204
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2884
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4242
 msgid "Browse…"
 msgstr "浏览…"
 
@@ -1574,9 +1577,9 @@ msgid ""
 "Can be useful if ISP has IPv6 nameservers but does not provide IPv6 routing."
 msgstr "如果你的 ISP 有 IPv6 名称服务器但不提供 IPv6 路由，本选项可能会有用。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2954
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4213
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4703
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2976
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4251
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4741
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:188
@@ -1694,11 +1697,11 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "链钩 \"%h\""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4433
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4471
 msgid "Changes"
 msgstr "更改数"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4773
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4811
 msgid "Changes have been reverted."
 msgstr "更改已恢复。"
 
@@ -1797,7 +1800,7 @@ msgstr "客户端"
 msgid "Client ID to send when requesting DHCP"
 msgstr "请求 DHCP 时发送的客户端 ID"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4450
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4488
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -1870,7 +1873,7 @@ msgstr "计算传出校验和（可选）。"
 msgid "Config File"
 msgstr "配置文件"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4433
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4471
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
 msgid "Configuration"
 msgstr "配置"
@@ -1879,11 +1882,11 @@ msgstr "配置"
 msgid "Configuration Export"
 msgstr "配置文件导出"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4622
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4660
 msgid "Configuration changes applied."
 msgstr "配置已应用。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4560
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4598
 msgid "Configuration changes have been rolled back!"
 msgstr "配置已回滚！"
 
@@ -1982,7 +1985,7 @@ msgstr "失去连接"
 msgid "Connections"
 msgstr "连接"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4696
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4734
 msgid "Connectivity change"
 msgstr "连接更改"
 
@@ -2032,7 +2035,7 @@ msgctxt "Chain policy: accept"
 msgid "Continue processing unmatched packets"
 msgstr "继续处理不匹配的数据包"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4596
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4634
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2165,7 +2168,7 @@ msgstr "DHCPv6 客户端"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:994
 msgctxt "DHCPv6 option 56. RFC5908 link"
 msgid "DHCPv6 option 56. %s."
-msgstr ""
+msgstr "DHCPv6 选项 56。%s。"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:953
 msgid "DHCPv6-Service"
@@ -2185,7 +2188,7 @@ msgstr "DNS 转发"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:358
 msgid "DNS Records"
-msgstr ""
+msgstr "DNS 记录"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:797
 msgid "DNS Servers"
@@ -2289,7 +2292,7 @@ msgstr "默认网关"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:339
 msgctxt "Dnsmasq instance"
 msgid "Default instance"
-msgstr ""
+msgstr "默认实例"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:842
 msgid "Default router"
@@ -2344,7 +2347,7 @@ msgstr "委托 IPv6 前缀"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2696
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2700
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3527
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2923
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2945
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:16
@@ -2356,7 +2359,7 @@ msgstr "删除"
 msgid "Delete key"
 msgstr "删除密钥"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2825
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2843
 msgid "Delete request failed: %s"
 msgstr "删除请求失败：%s"
 
@@ -2375,7 +2378,7 @@ msgstr "发送流量指示消息间隔"
 msgid "Description"
 msgstr "描述"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2919
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2937
 msgid "Deselect"
 msgstr "取消"
 
@@ -2471,7 +2474,7 @@ msgstr "设备不存在"
 msgid "Device type"
 msgstr "设备类型"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4595
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4633
 msgid "Device unreachable!"
 msgstr "无法连接到设备！"
 
@@ -2501,7 +2504,7 @@ msgstr "拨号号码"
 msgid "Dir"
 msgstr "目录"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2721
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2739
 msgid "Directory"
 msgstr "目录"
 
@@ -2602,8 +2605,8 @@ msgstr "磁盘空间"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:611
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2978
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3225
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3712
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4566
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3750
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4604
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1892
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:358
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -2697,7 +2700,7 @@ msgstr ""
 "不要在此接口上发送任何 <abbr title=\"Router Advertisement, ICMPv6 Type 134"
 "（路由器通告，ICMPv6 类型 134）\">RA</abbr> 消息。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2811
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2829
 msgid "Do you really want to delete \"%s\" ?"
 msgstr "您确定要删除“%s”吗？"
 
@@ -2709,7 +2712,7 @@ msgstr "您确定要删除以下 SSH 密钥吗？"
 msgid "Do you really want to erase all settings?"
 msgstr "您确定要清除所有设置吗？"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2809
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2827
 msgid "Do you really want to recursively delete the directory \"%s\" ?"
 msgstr "您确定要删除目录“%s”吗？"
 
@@ -2741,9 +2744,17 @@ msgstr "下线"
 msgid "Down Delay"
 msgstr "下行延迟"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2941
+msgid "Download"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:394
 msgid "Download backup"
 msgstr "下载备份"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3017
+msgid "Download failed: %s"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:432
 msgid "Download mtdblock"
@@ -3053,7 +3064,7 @@ msgstr "启用 WPS 一键加密按钮，需要 WPA(2)-PSK/WPA3-SAE"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:314
 msgid "Enable Yggdrasil Jumper"
-msgstr ""
+msgstr "启用 Yggdrasil Jumper"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/uhttpd.js:14
 msgid ""
@@ -3404,7 +3415,7 @@ msgstr "额外的 SSH 命令选项"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:370
 msgid "Extra config"
-msgstr ""
+msgstr "额外配置"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:72
 msgid "Extra pppd options"
@@ -3442,7 +3453,7 @@ msgstr "更改系统密码失败。"
 msgid "Failed to configure modem"
 msgstr "配置调制解调器失败"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4554
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4592
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr "在 %d 秒内确认应用失败，等待回滚…"
 
@@ -3470,7 +3481,7 @@ msgstr "初始化调制解调器失败"
 msgid "Failed to set operating mode"
 msgstr "设置操作模式失败"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2729
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2747
 msgid "File"
 msgstr "文件"
 
@@ -3482,7 +3493,7 @@ msgstr ""
 "列出上游解析器的文件，可以特定于域名，比如 {servers_file_entry01}，"
 "{servers_file_entry02}。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2676
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2684
 msgid "File not accessible"
 msgstr "文件无法访问"
 
@@ -3494,7 +3505,7 @@ msgstr "存储 DHCP 租约信息的文件。"
 msgid "File with upstream resolvers."
 msgstr "上游解析器文件。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2867
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2885
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:791
 msgid "Filename"
 msgstr "文件名"
@@ -4593,7 +4604,7 @@ msgid ""
 "device node"
 msgstr "如果指定，则通过分区卷标而不是固定的设备文件来挂载设备"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4698
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4736
 msgid ""
 "If the IP address used to access LuCI changes, a <strong>manual reconnect to "
 "the new IP</strong> is required within %d seconds to confirm the settings, "
@@ -4833,7 +4844,7 @@ msgstr "实例 \"%h\""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:343
 msgctxt "Dnsmasq instance"
 msgid "Instance \"%q\""
-msgstr ""
+msgstr "实例 \"%q\""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:34
 msgid "Instance Details"
@@ -5063,6 +5074,8 @@ msgid ""
 "direct peerings over internet with remote nodes running Yggdrasil Jumper "
 "without requiring firewall or port configuration."
 msgstr ""
+"它会定期探测活跃会话，并自动在互联网上与运行 Yggdrasil Jumper 的远程节点建立"
+"直接对等连接，无需防火墙或端口配置。"
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:78
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:98
@@ -5088,7 +5101,7 @@ msgstr "跳至规则"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:298
 msgid "Jumper"
-msgstr ""
+msgstr "Jumper"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:228
 msgid "Keep settings and retain the current configuration"
@@ -5279,7 +5292,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "检测到旧版规则"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4435
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4473
 msgid "Legend:"
 msgstr "图例："
 
@@ -5370,7 +5383,7 @@ msgstr "允许 {rfc_1918_link} 响应的域名列表。"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:301
 msgid "List of upstream NTP server candidates with which to synchronize."
-msgstr ""
+msgstr "候选的上游 NTP 服务器列表，用于同步时间。"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:173
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:38
@@ -5430,7 +5443,7 @@ msgstr "加载配置…"
 msgid "Loading data…"
 msgstr "加载数据中…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2989
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3027
 msgid "Loading directory contents…"
 msgstr "正在载入目录内容…"
 
@@ -5555,7 +5568,7 @@ msgstr "去登录…"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:335
 msgid "Log level"
-msgstr ""
+msgstr "日志级别"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
 msgid "Log out"
@@ -6136,14 +6149,14 @@ msgstr "NT 域"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:993
 msgid "NTP Servers"
-msgstr ""
+msgstr "NTP 服务器"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:300
 msgid "NTP server candidates"
 msgstr "候选 NTP 服务器"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2574
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4190
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4228
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:94
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
@@ -6294,7 +6307,7 @@ msgstr "永不转发这些匹配的域名或子域名；只从 DHCP 或 hosts �
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:349
 msgctxt "Dnsmasq instance"
 msgid "New instance name…"
-msgstr ""
+msgstr "新实例名称…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1272
 msgid "New interface for \"%s\" can not be created: %s"
@@ -6364,7 +6377,7 @@ msgstr "没有关联的客户端"
 msgid "No control device specified"
 msgstr "未指定控制设备"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3227
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3265
 msgctxt "empty table placeholder"
 msgid "No data"
 msgstr "无数据"
@@ -6387,7 +6400,7 @@ msgstr "不强制"
 msgid "No entries available"
 msgstr "没有可用的条目"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2929
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2951
 msgid "No entries in this directory"
 msgstr "此目录中没有内容"
 
@@ -6754,11 +6767,11 @@ msgstr "选项“%s”包含无效的输入值。"
 msgid "Option \"%s\" must not be empty."
 msgstr "选项“%s”不能为空。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4442
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4480
 msgid "Option changed"
 msgstr "选项已更改"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4444
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4482
 msgid "Option removed"
 msgstr "选项已移除"
 
@@ -7017,7 +7030,7 @@ msgstr "重设内部路由表"
 msgid "Overview"
 msgstr "概览"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2777
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2795
 msgid "Overwrite existing file \"%s\" ?"
 msgstr "覆盖已存在的文件“%s”吗？"
 
@@ -7404,7 +7417,7 @@ msgstr "Pkts."
 msgid "Please enter your username and password."
 msgstr "请输入用户名和密码。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4173
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4211
 msgid "Please select the file to upload."
 msgstr "请选择要上传的文件。"
 
@@ -8003,17 +8016,17 @@ msgstr "从结果中删除 IPv6 地址，只返回 IPv4 地址。"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:340
 msgctxt "Dnsmasq instance"
 msgid "Remove default instance"
-msgstr ""
+msgstr "移除默认实例"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:344
 msgctxt "Dnsmasq instance"
 msgid "Remove instance \"%q\""
-msgstr ""
+msgstr "移除实例 \"%q\""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:340
 msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
-msgstr ""
+msgstr "移除实例 #%d"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1418
 msgid "Remove related device settings from the configuration"
@@ -8213,7 +8226,7 @@ msgstr "恢复配置"
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:361
 msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
-msgstr ""
+msgstr "从 Yggdrasil 接口配置中获取监听地址。"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:386
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:387
@@ -8224,19 +8237,19 @@ msgstr "显示/隐藏 密码"
 msgid "Reverse path filter"
 msgstr "反转路径过滤器"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4464
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4502
 msgid "Revert"
 msgstr "恢复"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4570
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4608
 msgid "Revert changes"
 msgstr "恢复更改"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4782
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4820
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "恢复请求失败，状态 <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4762
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4800
 msgid "Reverting configuration…"
 msgstr "正在恢复配置…"
 
@@ -8470,7 +8483,7 @@ msgid "Save"
 msgstr "保存"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2174
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4452
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4490
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "保存并应用"
@@ -8517,11 +8530,11 @@ msgstr "搜素域名"
 msgid "Section %s is empty."
 msgstr "%s 部分为空。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4438
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4476
 msgid "Section added"
 msgstr "添加的节点"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4440
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4478
 msgid "Section removed"
 msgstr "移除的节点"
 
@@ -8538,9 +8551,9 @@ msgstr ""
 "即使映像文件检查失败，也“强制升级”以烧录映像。仅在您确定固件正确且适用于您的"
 "设备时使用！"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2678
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2818
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2978
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2686
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2836
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3000
 msgid "Select file…"
 msgstr "选择文件…"
 
@@ -8761,7 +8774,7 @@ msgstr "信号刷新率"
 msgid "Signal:"
 msgstr "信号："
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4191
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4229
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:222
 msgid "Size"
 msgstr "大小"
@@ -9212,7 +9225,7 @@ msgstr "启动优先级"
 msgid "Start refresh"
 msgstr "开始刷新"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4685
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4723
 msgid "Starting configuration apply…"
 msgstr "开始应用配置…"
 
@@ -9354,7 +9367,7 @@ msgstr "切换协议"
 msgid "Switch to CIDR list notation"
 msgstr "切换到 CIDR 列表记法"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2713
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2731
 msgid "Symbolic link"
 msgstr "符号链接"
 
@@ -9664,6 +9677,7 @@ msgid ""
 "The checkbox cannot be modified unless the <code>yggdrasil-jumper</code> "
 "package is installed."
 msgstr ""
+"该复选框只有在安装了 <code>yggdrasil-jumper</code> 软件包之后才能进行修改。"
 
 #: modules/luci-compat/luasrc/view/cbi/error.htm:6
 msgid "The configuration file could not be loaded due to the following error:"
@@ -9675,7 +9689,7 @@ msgid ""
 "network"
 msgstr "加入一个隐藏的无线网络时，必须手动指定正确的 SSID"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4561
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4599
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -9851,7 +9865,7 @@ msgstr ""
 msgid "The netfilter components below are only regarded when running fw4."
 msgstr "下方 netfilter 组件只有在运行 fw4 时才相关。"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4697
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4735
 msgid ""
 "The network access to this device could be interrupted by changing settings "
 "of the \"%h\" interface."
@@ -10039,7 +10053,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "没有已分配的租约"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4729
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4767
 msgid "There are no changes to apply"
 msgstr "没有待应用的更改"
 
@@ -10228,7 +10242,7 @@ msgstr "可用数"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:342
 msgid "Trace"
-msgstr ""
+msgstr "跟踪"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:110
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:111
@@ -10528,13 +10542,13 @@ msgstr "卸载分区"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:339
 msgctxt "Dnsmasq instance"
 msgid "Unnamed instance #%d"
-msgstr ""
+msgstr "未命名实例 #%d"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:121
 msgid "Unnamed key"
 msgstr "未命名的密钥"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4378
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4416
 msgid "Unsaved Changes"
 msgstr "未保存的配置"
 
@@ -10582,7 +10596,7 @@ msgstr "在线"
 msgid "Up Delay"
 msgstr "Up 延迟"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4265
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4303
 msgid "Upload"
 msgstr "上传"
 
@@ -10597,25 +10611,25 @@ msgstr "从这里上传一个 sysupgrade 兼容镜像以更新正在运行的固
 msgid "Upload archive..."
 msgstr "上传备份…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2872
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2890
 msgid "Upload file"
 msgstr "上传文件"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2847
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2865
 msgid "Upload file…"
 msgstr "上传文件…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4211
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4249
 msgid "Upload has been cancelled"
 msgstr "上传已被取消"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2794
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4253
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2812
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4291
 msgid "Upload request failed: %s"
 msgstr "上传请求失败：%s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4172
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4226
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4210
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4264
 msgid "Uploading file…"
 msgstr "正在上传文件…"
 
@@ -11049,7 +11063,7 @@ msgstr "正在等待设备…"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:339
 msgid "Warn"
-msgstr ""
+msgstr "警告"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:189
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:199

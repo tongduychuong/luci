@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-04-05 04:56+0000\n"
+"PO-Revision-Date: 2024-04-10 03:02+0000\n"
 "Last-Translator: Džiugas J <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/luci/"
 "lt/>\n"
@@ -30,7 +30,7 @@ msgstr "%.1f dB"
 msgid "%d Bit"
 msgstr "%d Bit'as"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4094
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4132
 msgid "%d invalid field(s)"
 msgstr "%d netinkamas/-i įvedimas/-ai"
 
@@ -52,6 +52,9 @@ msgid ""
 "connection over Yggdrasil network, utilizing NAT traversal to bypass "
 "intermediary nodes."
 msgstr ""
+"„%s“ yra nepriklausomas projektas, kurio tikslas yra skaidriai sumažinti "
+"ryšio delsą per „Yggdrasil“ tinklą, naudojant „NAT traversal“, kad apeitų "
+"tarpinius mazgus."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:35
 msgid "%s is untagged in multiple VLANs!"
@@ -435,7 +438,7 @@ msgstr ""
 "„Yggdrasil“ nustatė numatytąjį 65535 „MTU“. Rekomenduojama naudoti "
 "numatytąjį."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2776
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2794
 msgid "A directory with the same name already exists."
 msgstr "Tokio paties pavadinimo katalogas jau egzistuoja."
 
@@ -814,7 +817,7 @@ msgstr "Pridėti lygiarangio adresą"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:321
 msgctxt "Dnsmasq instance"
 msgid "Add server instance"
-msgstr ""
+msgstr "Pridėti serverio egzempliorių"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1134
 msgid "Add static forward and reverse DNS entries for this host."
@@ -836,7 +839,7 @@ msgstr "Pridėdant IPv6 į IPv4 rinkinį ir atvirkščiai nepavyksta."
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:371
 msgid "Additional configuration settings (in TOML format)."
-msgstr ""
+msgstr "Papildomi konfigūracijos nustatymai („TOML“ formatu)."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:612
 msgid "Additional hosts files"
@@ -975,7 +978,7 @@ msgstr "Paskirstyti IP(dgs.) nuosekliai"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:350
 msgid "Allocate listen addresses"
-msgstr ""
+msgstr "Paskirti laukiančius/-ias prisijungimo/jungties ryšio adresus"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:24
 msgid "Allow <abbr title=\"Secure Shell\">SSH</abbr> password authentication"
@@ -992,6 +995,8 @@ msgid ""
 "Allow Yggdrasil Jumper to automatically configure Yggdrasil with proper "
 "listen address and random port."
 msgstr ""
+"Leisti „Yggdrasil Jumper“ automatiškai sukonfigūruoti „Yggdrasil“ su tinkamo "
+"laukiančio/-os prisijungimo/jungties ryšio adresu ir atsitiktiniu prievadu."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1084
 msgid "Allow all except listed"
@@ -1165,7 +1170,7 @@ msgstr "Bet koks paketas"
 msgid "Any zone"
 msgstr "Bet kokia zona"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4711
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4749
 msgid "Apply and keep settings"
 msgstr "Pritaikyti ir išlaikyti nustatymus"
 
@@ -1173,21 +1178,21 @@ msgstr "Pritaikyti ir išlaikyti nustatymus"
 msgid "Apply backup?"
 msgstr "Įgalinti atkūrimą?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4737
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4775
 msgid "Apply request failed with status <code>%h</code>"
 msgstr "Nepavyko pritaikyti užklausos, kurios būsena <code>%h</code>"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2175
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4453
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4574
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4491
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4612
 msgid "Apply unchecked"
 msgstr "Įgalinti nepažymėtus"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4707
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4745
 msgid "Apply with revert after connectivity loss"
 msgstr "Taikyti sugrąžinimą po ryšio praradimo"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4647
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4685
 msgid "Applying configuration changes… %ds"
 msgstr "Įgalinami konfigūracijos pakeitimai... %ds"
 
@@ -1281,6 +1286,7 @@ msgstr "Autoritetas reikalingas"
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:360
 msgid "Autofill listen addresses"
 msgstr ""
+"Automatiškai užpildyti laukiančio/-ios prisijungimo/jungties ryšio adresus"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:120
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:18
@@ -1586,8 +1592,8 @@ msgstr "Transliacija/-iuoti"
 msgid "Broadcast policy (broadcast, 3)"
 msgstr "Transliavimo politika (transliacija, 3)"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2866
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4204
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2884
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4242
 msgid "Browse…"
 msgstr "Naršyti…"
 
@@ -1649,9 +1655,9 @@ msgstr ""
 "Gali būti naudinga, jei „ISP“ turi IPv6 vardų serverius, bet neteikia IPv6 "
 "maršrutizavimo."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2954
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4213
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4703
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2976
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4251
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4741
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:188
@@ -1774,11 +1780,11 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "Grandinės pririšimas \"%h\""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4433
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4471
 msgid "Changes"
 msgstr "Pakeitimai"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4773
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4811
 msgid "Changes have been reverted."
 msgstr "Pakeitimai buvo sugrąžinti."
 
@@ -1890,7 +1896,7 @@ msgstr "Klientas"
 msgid "Client ID to send when requesting DHCP"
 msgstr "Kliento ID, kurį reikia siųsti pateikus „DHCP“ užklausą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4450
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4488
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -1967,7 +1973,7 @@ msgstr "Apskaičiuoti išeinančią kontrolinę sumą (pasirinktinis)."
 msgid "Config File"
 msgstr "Konfigūracijos failas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4433
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4471
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:454
 msgid "Configuration"
 msgstr "Konfigūracija"
@@ -1976,11 +1982,11 @@ msgstr "Konfigūracija"
 msgid "Configuration Export"
 msgstr "Konfigūravimo eksportas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4622
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4660
 msgid "Configuration changes applied."
 msgstr "Konfigūravimo pakeitimai įgalinti."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4560
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4598
 msgid "Configuration changes have been rolled back!"
 msgstr ""
 "Konfigūravimo pakeitimai buvo atšaukti ir sugrąžinti į pradinę būsena "
@@ -2089,7 +2095,7 @@ msgstr "Ryšys prarastas"
 msgid "Connections"
 msgstr "Prisijungimai"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4696
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4734
 msgid "Connectivity change"
 msgstr "Ryšio pasikeitimas"
 
@@ -2143,7 +2149,7 @@ msgctxt "Chain policy: accept"
 msgid "Continue processing unmatched packets"
 msgstr "Tęsti nesutampamų paketų apdorojimą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4596
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4634
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2300,7 +2306,7 @@ msgstr "„DNS“ perleidimai"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:358
 msgid "DNS Records"
-msgstr ""
+msgstr "„DNS“ įrašai"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:797
 msgid "DNS Servers"
@@ -2405,7 +2411,7 @@ msgstr "Numatyta tinklo tarpuvartė"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:339
 msgctxt "Dnsmasq instance"
 msgid "Default instance"
-msgstr ""
+msgstr "Numatytas egzempliorius"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:842
 msgid "Default router"
@@ -2465,7 +2471,7 @@ msgstr "Perduoti IPv6 prielinksnius"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2696
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2700
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3527
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2923
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2945
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
 #: modules/luci-compat/luasrc/view/cbi/tsection.htm:16
@@ -2477,7 +2483,7 @@ msgstr "Ištrinti"
 msgid "Delete key"
 msgstr "Ištrinti raktą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2825
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2843
 msgid "Delete request failed: %s"
 msgstr "Ištrinimo prašymas nepavyko: %s"
 
@@ -2496,7 +2502,7 @@ msgstr "Pristatymo srauto indikacijos pranešimo intervalas"
 msgid "Description"
 msgstr "Aprašas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2919
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2937
 msgid "Deselect"
 msgstr "Atžymėti"
 
@@ -2592,7 +2598,7 @@ msgstr "Įrenginys nėra pasiekiamas"
 msgid "Device type"
 msgstr "Įrenginio tipas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4595
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4633
 msgid "Device unreachable!"
 msgstr "Įrenginys nepasiekiamas!"
 
@@ -2622,7 +2628,7 @@ msgstr "Surinkti numerį"
 msgid "Dir"
 msgstr "Katalogas („dir“)"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2721
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2739
 msgid "Directory"
 msgstr "Katalogas"
 
@@ -2724,8 +2730,8 @@ msgstr "Disko talpa"
 #: modules/luci-base/htdocs/luci-static/resources/form.js:611
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2978
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3225
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3712
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4566
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3750
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4604
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1892
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:358
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -2825,7 +2831,7 @@ msgstr ""
 "liet. Maršrutizatoriaus skelbimas, „ICMPv6“ tipas 134\">„RA“</abbr> "
 "pranešimų šiai/-am sąsajaj ir/arba sietuvui."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2811
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2829
 msgid "Do you really want to delete \"%s\" ?"
 msgstr "Ar Jūs tikrai norite ištrinti – „%s“?"
 
@@ -2837,7 +2843,7 @@ msgstr "Ar Jūs tikrai norite ištrinti šį „SSH“ raktą?"
 msgid "Do you really want to erase all settings?"
 msgstr "Ar Jūs tikrai norite panaikinti/išvalyti visus nustatymus?"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2809
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2827
 msgid "Do you really want to recursively delete the directory \"%s\" ?"
 msgstr "Ar Jūs tikrai norite rekursyviškai ištrinti katalogą – „%s“?"
 
@@ -2869,9 +2875,17 @@ msgstr "Žemyn"
 msgid "Down Delay"
 msgstr "Išjungimo/sustabdymo atidėjimas"
 
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2941
+msgid "Download"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:394
 msgid "Download backup"
 msgstr "Atsisiųsti atsarginę kopiją"
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3017
+msgid "Download failed: %s"
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:432
 msgid "Download mtdblock"
@@ -3199,7 +3213,7 @@ msgstr "Įjungti „WPS“ mygtuko paspaudimą, reikalaują „WPA(2)-PSK“/„
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:314
 msgid "Enable Yggdrasil Jumper"
-msgstr ""
+msgstr "Įjungti/Įgalinti „Yggdrasil Jumper“"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/uhttpd.js:14
 msgid ""
@@ -3573,15 +3587,15 @@ msgstr "Papildomi „SSH“ komandos pasirinkimai"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:370
 msgid "Extra config"
-msgstr ""
+msgstr "Papildoma konfigūracija"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:72
 msgid "Extra pppd options"
-msgstr "Papildomi „pppd“ pasirinkimai"
+msgstr "Papildomos „pppd“ parinktys"
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:70
 msgid "Extra sstpc options"
-msgstr "Papildomi „sstpc“ pasirinkimai"
+msgstr "Papildomos „sstpc“ parinktys"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:983
 msgid "FQDN"
@@ -3611,7 +3625,7 @@ msgstr "Nepavyko pakeisti sistemos slaptažodžio."
 msgid "Failed to configure modem"
 msgstr "Nepavyko konfigūruoti modemą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4554
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4592
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr ""
 "Nepavyko patvirtinti įgalimą vidun/per %ds, laukiama, kol bus sugrąžintą…"
@@ -3640,7 +3654,7 @@ msgstr "Nepavyko paleisti modemo"
 msgid "Failed to set operating mode"
 msgstr "Nepavyko nustatyti operavimo režimo"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2729
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2747
 msgid "File"
 msgstr "Failas"
 
@@ -3652,7 +3666,7 @@ msgstr ""
 "Failas, kuriame išvardijami išsiuntimo srauto sprendėjai, pasirinktinai "
 "pagal domeną-sritį, pvz: „{servers_file_entry01}“, „{servers_file_entry02}“."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2676
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2684
 msgid "File not accessible"
 msgstr "Failas nepasiekiamas"
 
@@ -3664,7 +3678,7 @@ msgstr "Failas, skirtas laikyti „DHCP“ nuomos informaciją."
 msgid "File with upstream resolvers."
 msgstr "Failas su išsiuntimo srauto sprendėjais."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2867
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2885
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:791
 msgid "Filename"
 msgstr "Failo pavadinimas"
@@ -4798,7 +4812,7 @@ msgstr ""
 "Jei nurodyta, įrenkite įrenginį pagal skaidinio etiketę, o ne fiksuotą "
 "įrenginio mazgą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4698
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4736
 msgid ""
 "If the IP address used to access LuCI changes, a <strong>manual reconnect to "
 "the new IP</strong> is required within %d seconds to confirm the settings, "
@@ -5047,7 +5061,7 @@ msgstr "Egzempliorius „%h“"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:343
 msgctxt "Dnsmasq instance"
 msgid "Instance \"%q\""
-msgstr ""
+msgstr "„%q“ egzempliorius"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:34
 msgid "Instance Details"
@@ -5289,6 +5303,9 @@ msgid ""
 "direct peerings over internet with remote nodes running Yggdrasil Jumper "
 "without requiring firewall or port configuration."
 msgstr ""
+"Tai periodiškai tikrina aktyvias sesijas ir automatiškai internetu užmezga "
+"tiesioginį ryšį su nutolusiais mazgais, kuriuose veikia „Yggdrasil Jumper“, "
+"nereikalaudamas užkardo ar prievado konfigūravimo."
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:78
 #: themes/luci-theme-material/ucode/template/themes/material/header.ut:98
@@ -5314,7 +5331,7 @@ msgstr "Eiti prie taisyklės"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:298
 msgid "Jumper"
-msgstr ""
+msgstr "„Jumper“"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:228
 msgid "Keep settings and retain the current configuration"
@@ -5509,7 +5526,7 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr "Aptiktos senos taisyklės"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4435
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4473
 msgid "Legend:"
 msgstr "Legenda (už.):"
 
@@ -5676,7 +5693,7 @@ msgstr "Įkelti konfigūracija…"
 msgid "Loading data…"
 msgstr "Kraunama duomenis…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2989
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3027
 msgid "Loading directory contents…"
 msgstr "Kraunama vietovės turinį…"
 
@@ -5805,7 +5822,7 @@ msgstr "Prisijungti…"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:335
 msgid "Log level"
-msgstr ""
+msgstr "Žurnalo lygis"
 
 #: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json:81
 msgid "Log out"
@@ -6410,7 +6427,7 @@ msgid "NTP server candidates"
 msgstr "„NTP“ serverio kandidatai"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2574
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4190
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4228
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:94
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
@@ -6568,7 +6585,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:349
 msgctxt "Dnsmasq instance"
 msgid "New instance name…"
-msgstr ""
+msgstr "Naujas egzemplioriaus pavadinimas…"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1272
 msgid "New interface for \"%s\" can not be created: %s"
@@ -6639,7 +6656,7 @@ msgstr "Joks klientas nesusijęs"
 msgid "No control device specified"
 msgstr "Nėra nustatyto valdymo įrenginio"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:3227
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3265
 msgctxt "empty table placeholder"
 msgid "No data"
 msgstr "Nėra duomenų"
@@ -6662,7 +6679,7 @@ msgstr "Jokio įgalinimo"
 msgid "No entries available"
 msgstr "Jokių įrašų nėra"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2929
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2951
 msgid "No entries in this directory"
 msgstr "Nėra įrašų šiame kataloge"
 
@@ -7042,11 +7059,11 @@ msgstr "Parametre „%s“ yra negaliojanti įvesties reikšmė."
 msgid "Option \"%s\" must not be empty."
 msgstr "Parametras „%s“ negali būti tuščias."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4442
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4480
 msgid "Option changed"
 msgstr "Parametras pakeistas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4444
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4482
 msgid "Option removed"
 msgstr "Parametras pašalintas"
 
@@ -7325,7 +7342,7 @@ msgstr "Perrašyti lentelę naudojamą vidiniams maršrutams"
 msgid "Overview"
 msgstr "Apžiūra"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2777
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2795
 msgid "Overwrite existing file \"%s\" ?"
 msgstr "Perrašyti egzistuojantį failą „%s“?"
 
@@ -7719,7 +7736,7 @@ msgstr "Pkt."
 msgid "Please enter your username and password."
 msgstr "Prašome įvesti savo slapyvardį/vartotojo vardą ir slaptažodį."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4173
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4211
 msgid "Please select the file to upload."
 msgstr "Pasirinkite failą, kurį norite įkelti."
 
@@ -8344,17 +8361,17 @@ msgstr "Pašalinti IPv6 adresus iš rezultatų ir grąžinti tik IPv4 adresus."
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:340
 msgctxt "Dnsmasq instance"
 msgid "Remove default instance"
-msgstr ""
+msgstr "Pašalinti numatytą egzempliorių"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:344
 msgctxt "Dnsmasq instance"
 msgid "Remove instance \"%q\""
-msgstr ""
+msgstr "Pašalinti „%q“ egzempliorių"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:340
 msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
-msgstr ""
+msgstr "Pašalinti „#%d“ egzempliorių"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1418
 msgid "Remove related device settings from the configuration"
@@ -8557,6 +8574,8 @@ msgstr "Atkurti atsarginę kopiją"
 msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr ""
+"Gauti laukiančiojo/-os prisijungimo/jungties ryšio adresus iš „Yggdrasil“ "
+"sąsajos konfigūracijos."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:386
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:387
@@ -8567,19 +8586,19 @@ msgstr "Atskleisti/Paslėpti slaptažodį"
 msgid "Reverse path filter"
 msgstr "Apversti kelio filtrą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4464
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4502
 msgid "Revert"
 msgstr "Anuliuoti"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4570
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4608
 msgid "Revert changes"
 msgstr "Paskelbti pakeitimus negaliojančius (Pakeitimų anuliavimas)"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4782
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4820
 msgid "Revert request failed with status <code>%h</code>"
 msgstr "Anuliavimo prašymas nepavyko su kodu <code>%h</code>"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4762
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4800
 msgid "Reverting configuration…"
 msgstr "Visi pakeitimai grįžtą į pradinę konfigūravimą (Anuliuojama)…"
 
@@ -8825,7 +8844,7 @@ msgid "Save"
 msgstr "Išsaugoti"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2174
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4452
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4490
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr "Išsaugoti ir Įgalinti"
@@ -8872,11 +8891,11 @@ msgstr "Ieškoti domeno-srities"
 msgid "Section %s is empty."
 msgstr "Sekciją „%s“ yra tuščią."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4438
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4476
 msgid "Section added"
 msgstr "Sekciją pridėtą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4440
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4478
 msgid "Section removed"
 msgstr "Sekciją pašalintą"
 
@@ -8894,9 +8913,9 @@ msgstr ""
 "nepavyko patikrinti laikmenos formato. Naudokite tik tada, jei esate tikri, "
 "kad programinė įranga yra teisinga ir skirta Jūsų įrenginiui!"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2678
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2818
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2978
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2686
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2836
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:3000
 msgid "Select file…"
 msgstr "Pasirinkti failą…"
 
@@ -9131,7 +9150,7 @@ msgstr "Signalo atnaujinimo dažnis"
 msgid "Signal:"
 msgstr "Signalas:"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4191
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4229
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:222
 msgid "Size"
 msgstr "Dydis"
@@ -9644,7 +9663,7 @@ msgstr "Pradėti pirmenybė"
 msgid "Start refresh"
 msgstr "Pradėti įkėlimą iš naujo"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4685
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4723
 msgid "Starting configuration apply…"
 msgstr "Pradėdamas konfigūracijos taikymas…"
 
@@ -9790,7 +9809,7 @@ msgstr "Perjungti protokolą (Komutatoriaus protokolas)"
 msgid "Switch to CIDR list notation"
 msgstr "Perjungti į „CIDR“ sąrašo žymėjimą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2713
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2731
 msgid "Symbolic link"
 msgstr "Simbolinė nuoroda"
 
@@ -10125,6 +10144,8 @@ msgid ""
 "The checkbox cannot be modified unless the <code>yggdrasil-jumper</code> "
 "package is installed."
 msgstr ""
+"Žymimasis langelis negali būti keičiamas, jei nėra įdiegtas <code>„yggdrasil-"
+"jumper“</code> prog. įrang. paketas."
 
 #: modules/luci-compat/luasrc/view/cbi/error.htm:6
 msgid "The configuration file could not be loaded due to the following error:"
@@ -10138,7 +10159,7 @@ msgstr ""
 "Tinkamas „SSID“ (Tinklo pavadinimas) turi būti įvestas rankiniu būdu, norint "
 "prisijungti prie paslėpto tinklo"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4561
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4599
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -10337,7 +10358,7 @@ msgid "The netfilter components below are only regarded when running fw4."
 msgstr ""
 "Toliau pateikti tinklo filtro komponentai laikomi tik tada, kai veikia „fw4“."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4697
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4735
 msgid ""
 "The network access to this device could be interrupted by changing settings "
 "of the \"%h\" interface."
@@ -10550,7 +10571,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr "Nėra aktyvių nuomų"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4729
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4767
 msgid "There are no changes to apply"
 msgstr "Nėra pakeitimų kurių galima įgalinti"
 
@@ -10766,7 +10787,7 @@ msgstr "Iš viso pasiekiama"
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:342
 msgid "Trace"
-msgstr ""
+msgstr "Sekimas/Atsekamumas"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:110
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:111
@@ -11070,13 +11091,13 @@ msgstr "Atjungti"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:339
 msgctxt "Dnsmasq instance"
 msgid "Unnamed instance #%d"
-msgstr ""
+msgstr "Nepavadintas „#%d“ egzempliorius"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:121
 msgid "Unnamed key"
 msgstr "Nepavadintas raktas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4378
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4416
 msgid "Unsaved Changes"
 msgstr "Neišsaugoti pakeitimai"
 
@@ -11124,7 +11145,7 @@ msgstr "Viršun"
 msgid "Up Delay"
 msgstr "Įjungimo atidėjimas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4265
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4303
 msgid "Upload"
 msgstr "Įkelti"
 
@@ -11141,25 +11162,25 @@ msgstr ""
 msgid "Upload archive..."
 msgstr "Įkelti archyvą..."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2872
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2890
 msgid "Upload file"
 msgstr "Įkelti failą"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2847
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2865
 msgid "Upload file…"
 msgstr "Įkelti failą…"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4211
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4249
 msgid "Upload has been cancelled"
 msgstr "Įkėlimas buvo atšauktas"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:2794
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4253
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:2812
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4291
 msgid "Upload request failed: %s"
 msgstr "Įkėlimo prašymas nesėkmingas: %s"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4172
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4226
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4210
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4264
 msgid "Uploading file…"
 msgstr "Įkėliamas failas…"
 
@@ -11612,7 +11633,7 @@ msgstr "Laukiama įrenginio..."
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:339
 msgid "Warn"
-msgstr ""
+msgstr "Įspėti"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:189
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:199
