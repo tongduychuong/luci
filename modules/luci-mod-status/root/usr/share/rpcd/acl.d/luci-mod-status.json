@@ -33,10 +33,7 @@
 			"file": {
 				"/sys/kernel/debug/qca-nss-drv/stats/cpu_load_ubi": [ "read" ],
 				"/bin/dmesg -r": [ "exec" ],
-				"/sbin/logread": [ "stat" ],
-				"/sbin/logread -e ^": [ "exec" ],
-				"/usr/sbin/logread": [ "stat" ],
-				"/usr/sbin/logread -e ^": [ "exec" ]
+				"/usr/libexec/syslog-wrapper": [ "exec" ]
 			},
 			"ubus": {
 				"file": [ "stat" ]
