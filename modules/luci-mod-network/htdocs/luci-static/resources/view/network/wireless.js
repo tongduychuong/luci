@@ -506,22 +506,6 @@ var CBIWifiFrequencyValue = form.Value.extend({
 
 		this.setValues(mode, this.modes);
 
-		// Determine mode based on htmode value
-		if (/EHT20|EHT40|EHT80|EHT160|EHT320/.test(htval))
-			mode.value = 'be';		
-		else if (/HE20|HE40|HE80|HE160/.test(htval))
-			mode.value = 'ax';
-		else if (/VHT20|VHT40|VHT80|VHT160/.test(htval))
-			mode.value = 'ac';
-		else if (/VHT20|VHT40/.test(htval) && band.value == '2g')
-			mode.value = 'n';
-		else if (/HT20|HT40/.test(htval))
-			mode.value = 'n';
-		else
-			mode.value = '';
-
-		this.toggleWifiMode(elem);
-
 		if (hwval != null) {
 			this.useBandOption = false;
 
@@ -537,6 +521,22 @@ var CBIWifiFrequencyValue = form.Value.extend({
 		}
 
 		this.toggleWifiBand(elem);
+
+		// Determine mode based on htmode value
+		if (/EHT20|EHT40|EHT80|EHT160|EHT320/.test(htval))
+			mode.value = 'be';		
+		else if (/HE20|HE40|HE80|HE160/.test(htval))
+			mode.value = 'ax';
+		else if (/VHT20|VHT40/.test(htval) && band.value == '2g')
+			mode.value = 'n';
+		else if (/VHT20|VHT40|VHT80|VHT160/.test(htval))
+			mode.value = 'ac';
+		else if (/HT20|HT40/.test(htval))
+			mode.value = 'n';
+		else
+			mode.value = '';
+
+		this.toggleWifiMode(elem);
 
 		bwdt.value = htval;
 		chan.value = chval || (chan.options[0] ? chan.options[0].value : 'auto');
