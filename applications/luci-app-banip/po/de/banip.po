@@ -1,47 +1,100 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-08-04 23:09+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-03-30 17:03+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsbanip/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:78
 msgid "-- Set Selection --"
 msgstr "-- Auswahl einstellen --"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:334
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:357
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:368
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:427
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:457
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:471
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:485
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:502
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:511
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:303
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:326
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:337
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:395
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:425
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:439
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:453
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:470
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:481
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:498
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:590
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:619
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:783
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:616
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:803
 msgid "-- default --"
 msgstr "-- Standard --"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:726
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:224
+msgid "<DATE><IPv4><SPACE>"
+msgstr "<DATE><IPv4><SPACE>"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:225
+msgid "<IPv4>, csv"
+msgstr "<IPv4>, csv"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:228
+msgid "<IPv4>, substring"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:220
+msgid "<IPv4><END>"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:222
+msgid "<IPv4><END>, nodups"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:219
+msgid "<IPv4><SPACE>"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:221
+msgid "<IPv4><SPACE>, concatinated"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:226
+msgid "<IPv4><SPACE>NET"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:227
+msgid "<IPv4><SPACE>YOUR"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:223
+msgid "<IPv4>[<SPACE>|<HYPHEN>]"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:245
+msgid "<IPv6><END>"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:244
+msgid "<IPv6><SPACE>"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:736
 msgid "AFRINIC - serving Africa and the Indian Ocean region"
 msgstr "AFRINIC - Afrika und der Region des Indischen Ozeans dienen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:727
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:737
 msgid "APNIC - serving the Asia Pacific region"
 msgstr "APNIC - der Region Asien-Pazifik dienen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:728
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:738
 msgid "ARIN - serving Canada and the United States"
 msgstr "ARIN - Kanada und den Vereinigten Staaten dienen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:734
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:749
+msgid "ASN Selection"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:751
 msgid "ASNs"
 msgstr "Autonome Systemnummern"
 
@@ -57,29 +110,33 @@ msgstr "Aktive Feeds"
 msgid "Active Uplink"
 msgstr "Aktiver Uplink"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:322
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:634
+msgid "AdGuardHome login error"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:291
 msgid "Additional trigger delay in seconds during interface reload and boot."
 msgstr ""
 "Zusätzliche Auslöseverzögerung in Sekunden während des Interface-Neustarts "
 "und Bootens."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:248
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:218
 msgid "Advanced Settings"
 msgstr "Erweiterte Einstellungen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:432
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:400
 msgid "Allow Protocol/Ports"
 msgstr "Protokoll/Ports zulassen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:436
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:404
 msgid "Allow VLAN Forwards"
 msgstr "VLAN Forwards erlauben"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:744
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:764
 msgid "Allowlist Feed URLs"
 msgstr "Zulassungslisten-Feed-URLs"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:807
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:827
 msgid "Allowlist Only"
 msgstr "Nur Zulassungsliste"
 
@@ -91,7 +148,7 @@ msgstr ""
 "Änderungen an der Zulassungsliste wurden gespeichert, bitte banIP neu laden, "
 "um die Änderungen wirksam werden zu lassen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:432
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:400
 msgid ""
 "Always allow a protocol (tcp/udp) with certain ports or port ranges in WAN-"
 "Input and WAN-Forward chain."
@@ -99,35 +156,35 @@ msgstr ""
 "Immer ein Protokoll (tcp/udp) mit bestimmten Ports oder Portbereiche in der "
 "WAN-Eingang- und WAN-Weiterleitung-Kette erlauben."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:436
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:404
 msgid "Always allow certain VLAN forwards."
 msgstr "Immer bestimmte VLAN-Forwards erlauben."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:442
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:410
 msgid "Always block certain VLAN forwards."
 msgstr "Immer bestimmte VLAN-Forwards blockieren."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:777
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:797
 msgid "Auto Allow Uplink"
 msgstr "Uplink automatisch erlauben"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:773
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:793
 msgid "Auto Allowlist"
 msgstr "Automatische Zulassungsliste"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:792
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:812
 msgid "Auto Block Subnet"
 msgstr "Subnet automatisch blockieren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:788
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:808
 msgid "Auto Blocklist"
 msgstr "Automatische Sperrliste"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:269
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:239
 msgid "Auto Detection"
 msgstr "Automatische Erkennung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:792
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:812
 msgid ""
 "Automatically add entire subnets to the blocklist Set based on an additional "
 "RDAP request with the suspicious IP."
@@ -135,7 +192,7 @@ msgstr ""
 "Automatisch dem Blocklist-Set ganze Subnetze auf Basis einer zusätzlichen "
 "RDAP-Anforderung mit der verdächtigen IP hinzufügen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:788
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:808
 msgid ""
 "Automatically add resolved domains and suspicious IPs to the local banIP "
 "blocklist."
@@ -143,7 +200,7 @@ msgstr ""
 "Aufgelöste Domains und verdächtige IPs der lokalen banIP-Sperrliste "
 "automatisch hinzufügen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:773
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:793
 msgid ""
 "Automatically add resolved domains and uplink IPs to the local banIP "
 "allowlist."
@@ -151,31 +208,27 @@ msgstr ""
 "Der lokalen banIP-Zulassungsliste aufgelöste Domains und Uplink-IPs "
 "automatisch hinzufügen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:396
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:365
 msgid "Backup Directory"
 msgstr "Backupverzeichnis"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:392
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:361
 msgid "Base Directory"
 msgstr "Basisverzeichnis"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:392
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:361
 msgid "Base working directory while banIP processing."
 msgstr "Basisarbeitsverzeichnis während der BanIP-Verarbeitung."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:507
-msgid "Block Type"
-msgstr "Blocktyp"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:442
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:410
 msgid "Block VLAN Forwards"
 msgstr "VLAN-Weiterleitungen blockieren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:691
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:696
 msgid "Blocklist Feed"
 msgstr "Blocklisten-Feed"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:797
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:817
 msgid "Blocklist Set Expiry"
 msgstr "Ablauf des Sperrlisten-Sets"
 
@@ -187,44 +240,43 @@ msgstr ""
 "Blocklist-Änderungen wurden gespeichert, banIP neu laden, damit die "
 "Änderungen wirksam werden."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:516
-msgid ""
-"By default each feed is active in all supported chains. Limit the default "
-"block policy to a certain chain."
-msgstr ""
-"Standardmäßig ist jeder Feed in allen unterstützten Ketten aktiv. "
-"Beschränken Sie die Standard-Block-Richtlinie auf eine bestimmte Kette."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:373
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:342
 msgid "CPU Cores"
 msgstr "CPU-Kerne"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:39
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:109
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:40
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:110
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:148
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:420
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:249
+msgid "Chain"
+msgstr "Kette"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:389
 msgid "Chain Priority"
 msgstr "Kettenpriorität"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:686
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:691
 msgid "Changes on this tab needs a banIP service reload to take effect."
 msgstr ""
+"Änderungen auf dieser Registerkarte benötigen einen Neustart des banIP-"
+"Services, um zu wirken."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:260
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:347
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:417
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:495
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:230
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:316
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:386
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:463
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:577
 msgid "Changes on this tab needs a banIP service restart to take effect."
 msgstr ""
 "Änderungen auf dieser Registerkarte benötigen einen Neustart des BanIP-"
 "Services, um wirksam zu werden."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:287
-msgid "Clear Custom Feeds"
-msgstr "Benutzerdefinierte Feeds leeren"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:314
+msgid "Clear"
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:40
 msgid ""
@@ -240,15 +292,23 @@ msgstr ""
 "packages/blob/master/net/banip/files/README.md\" target=\"_blank\" "
 "rel=\"noreferrer noopener\" >Online-Dokumentation</a>"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:705
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:193
+msgid "Count"
+msgstr "Anzahl"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:715
 msgid "Countries"
 msgstr "Länder"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:174
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:709
+msgid "Country Selection"
+msgstr ""
+
+#: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:52
 msgid "Custom Feed Editor"
 msgstr "Benutzerdefinierter Feed-Editor"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:404
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:377
 msgid ""
 "Deduplicate IP addresses across all active Sets and tidy up the local "
 "blocklist."
@@ -256,19 +316,15 @@ msgstr ""
 "Deduplizieren von IP-Adressen in allen aktiven Sets und bereinigen der "
 "lokalen Sperrliste."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:404
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:377
 msgid "Deduplicate IPs"
 msgstr "IPs deduplizieren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:516
-msgid "Default Block Policy"
-msgstr "Voreingestellte Block-Richtlinie"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:229
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:255
 msgid "Description"
 msgstr "Beschreibung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:269
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:239
 msgid ""
 "Detect relevant network devices, interfaces, subnets, protocols and "
 "utilities automatically."
@@ -276,67 +332,59 @@ msgstr ""
 "Automatische Erkennung relevanter Netzwerkgeräte, Schnittstellen, Subnetze, "
 "Protokolle und Dienstprogramme."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:779
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:799
 msgid "Disable"
 msgstr "Deaktivieren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:214
-msgid "Domain Lookup"
-msgstr "Domain-Lookup"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:339
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:308
 msgid "Don't check SSL server certificates during download."
 msgstr "Während des Downloads keine SSL-Serverzertifikate überprüfen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:260
-msgid "Download Custom Feeds"
-msgstr "Benutzerdefinierte Feeds herunterladen"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:287
+msgid "Download"
+msgstr "Herunterladen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:339
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:308
 msgid "Download Insecure"
 msgstr "Unsicher herunterladen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:312
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:281
 msgid "Download Parameters"
 msgstr "Download Parameter"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:327
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
 msgid "Download Retries"
 msgstr "Herunterladeversuche"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:303
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:273
 msgid "Download Utility"
 msgstr "Download-Werkzeug"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:507
-msgid ""
-"Drop packets silently or actively reject the traffic on WAN-Input and WAN-"
-"Forward chains."
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:494
+msgid "Drop packets silently or actively reject Inbound traffic."
 msgstr ""
-"Pakete still verwerfen oder den Verkehr auf WAN-EIngangs- und WAN-"
-"Weiterleitungsketten aktiv ablehnen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:661
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:666
 msgid "E-Mail Notification"
 msgstr "E-Mail-Benachrichtigung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:676
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:681
 msgid "E-Mail Profile"
 msgstr "E-Mail-Profil"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:664
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:669
 msgid "E-Mail Receiver Address"
 msgstr "E-Mail Empfängeradresse"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:668
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:673
 msgid "E-Mail Sender Address"
 msgstr "E-Mail Absenderadresse"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:252
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:222
 msgid "E-Mail Settings"
 msgstr "E-Mail-Einstellungen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:672
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:677
 msgid "E-Mail Topic"
 msgstr "E-Mail-Thema"
 
@@ -348,115 +396,141 @@ msgstr "Zulassungsliste bearbeiten"
 msgid "Edit Blocklist"
 msgstr "Sperrliste bearbeiten"
 
-#: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:52
-msgid "Edit Custom Feeds"
-msgstr "Benutzerdefinierte Feeds bearbeiten"
-
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:173
 msgid "Element Count"
 msgstr "Anzahl der Elemente"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:161
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:197
 msgid "Elements"
 msgstr "Elemente"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:195
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:233
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:643
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:199
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:259
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:648
 msgid "Empty field not allowed"
 msgstr "Das Feld darf nicht leer sein"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:633
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:489
+msgid "Enable GeoIP Map"
+msgstr "GeoIP-Karte aktivieren"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:638
 msgid "Enable Remote Logging"
 msgstr "Remote-Logging Aktivieren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:263
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:489
+msgid ""
+"Enable a GeoIP Map with suspicious Set elements. This requires external "
+"requests to get the map tiles and geolocation data."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:486
+msgid "Enable nft counter for every Set element."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:233
 msgid "Enable the banIP service."
 msgstr "Aktiviere den banIP-Service."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:633
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:638
 msgid "Enable the cgi interface to receive remote logging events."
 msgstr ""
 "Pakete still verwerfen oder aktiv den Verkehr auf WAN-Eingangs- und WAN-"
 "Weiterleitungsketten ablehnen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:266
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:236
 msgid "Enable verbose debug logging in case of processing errors."
 msgstr "Aktivieren ausführlicher Debug-Logs im Fehlerfall."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:263
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:233
 msgid "Enabled"
 msgstr "Aktiviert"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:272
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:242
 msgid "Enables IPv4 support."
 msgstr "Aktiviert die IPv4-Unterstützung."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:277
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:247
 msgid "Enables IPv6 support."
 msgstr "Aktiviert die IPv6-Unterstützung."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:797
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:373
+msgid "Error Directory"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:817
 msgid "Expiry time for auto added blocklist Set members."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:741
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:761
 msgid "External Allowlist Feeds"
 msgstr "Feeds externer Zulassungsliste"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:688
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:693
 msgid "External Blocklist Feeds"
 msgstr "Externe Sperrlisten-Feeds"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:190
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:561
+msgid "Feed Complete"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:551
+msgid "Feed Flag Reset"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:194
 msgid "Feed Name"
 msgstr "Feedname"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:253
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:223
 msgid "Feed Selection"
 msgstr "Feed-Auswahl"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:250
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:220
 msgid "Feed/Set Settings"
 msgstr "Feed/Set Einstellungen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:278
-msgid "Fill Custom Feeds"
-msgstr "Benutzerdefinierte Feeds füllen"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:305
+msgid "Fill"
+msgstr ""
 
 #: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:68
 msgid "Firewall Log"
 msgstr "Firewall-Protokoll"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:238
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:264
 msgid "Flag"
 msgstr "Flag"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:244
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:270
 msgid "Flag not supported"
 msgstr "Flag nicht unterstützt"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:247
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:217
 msgid "General Settings"
 msgstr "Allgemeine Einstellungen"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:282
+msgid "GeoIP Map is not enabled!"
+msgstr "GeoIP-Karte ist nicht aktiviert!"
 
 #: applications/luci-app-banip/root/usr/share/rpcd/acl.d/luci-app-banip.json:3
 msgid "Grant access to LuCI app banIP"
 msgstr "Zugriff auf LuCI-App banIP gewähren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:352
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:321
 msgid "High Priority"
 msgstr "Hohe Priorität"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:351
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:320
 msgid "Highest Priority"
 msgstr "Höchste Priorität"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:448
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:416
 msgid "ICMP-Threshold"
 msgstr "ICMP-Schwelle"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:448
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:416
 msgid ""
 "ICMP-Threshold in packets per second to prevent WAN-DoS attacks. To disable "
 "this safeguard set it to '0'."
@@ -464,35 +538,59 @@ msgstr ""
 "ICMP-Schwelle in Paketen pro Sekunde, um WAN-DoS-Angriffe zu verhindern. Um "
 "diesen Schutz zu deaktivieren, auf '0' setzen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:781
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:801
 msgid "IP"
 msgstr "IP"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:11
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:12
 msgid "IP Search"
 msgstr "IP-Suche"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:245
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:310
 msgid "IP Search..."
 msgstr "IP-Suche..."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:289
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:259
 msgid "IPv4 Network Interfaces"
 msgstr "IPv4-Netzwerkschnittstellen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:272
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:242
 msgid "IPv4 Support"
 msgstr "IPv4 Unterstützung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:266
 msgid "IPv6 Network Interfaces"
 msgstr "IPv6-Netzwerkschnittstellen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:277
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:247
 msgid "IPv6 Support"
 msgstr "IPv6 Unterstützung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:362
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:250
+msgid "Inbound"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:252
+msgid "Inbound & Outbound"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:541
+msgid "Inbound & Outbound Feed"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:494
+msgid "Inbound Block Policy"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:521
+msgid "Inbound Feed"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:194
+msgid "Inbound&#160;(packets)"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:331
 msgid ""
 "Increase the maximal number of open files, e.g. to handle the amount of "
 "temporary split files while loading the Sets."
@@ -504,8 +602,8 @@ msgstr ""
 msgid "Information"
 msgstr "Informationen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:198
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:646
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:202
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:651
 msgid "Invalid characters"
 msgstr "Ungültige Zeichen"
 
@@ -513,72 +611,43 @@ msgstr "Ungültige Zeichen"
 msgid "Invalid input values, unable to save modifications."
 msgstr "Ungültige Eingangswerte, kann keine Änderungen speichern."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:729
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:739
 msgid "LACNIC - serving the Latin American and Caribbean region"
 msgstr "LACNIC - für die lateinamerikanische und karibische Region"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:164
-msgid "LAN-Forward (packets)"
-msgstr "LAN-Forward (Pakete)"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:519
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:561
-msgid "LAN-Forward Chain"
-msgstr "LAN-Forward-Kette"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:201
 msgid "Last Run"
 msgstr "Letzter Durchgang"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:355
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:324
 msgid "Least Priority"
 msgstr "Niedrigste Priorität"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:354
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:323
 msgid "Less Priority"
 msgstr "Niedrige Priorität"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:561
-msgid "Limit certain feeds to the LAN-Forward chain."
-msgstr "Beschränken bestimmter Feeds auf die LAN-Forward-Kette."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:551
-msgid "Limit certain feeds to the WAN-Forward chain."
-msgstr "Beschränken bestimmter Feeds auf die WAN-Forward-Kette."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:541
-msgid "Limit certain feeds to the WAN-Input chain."
-msgstr "Beschränken bestimmter Feeds auf die WAN-Eingang-Kette."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:373
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:342
 msgid "Limit the cpu cores used by banIP to save RAM."
 msgstr "Begrenzen von banIP verwendeter Rechenkerne, um RAM zu sparen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:777
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:797
 msgid "Limit the uplink autoallow function."
 msgstr "Die Uplink Autoallow-Funktion einschränken."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:408
-msgid ""
-"List Set elements in the status and report, disable this to reduce the CPU "
-"load."
-msgstr ""
-"Set-Elemente im Status und Bericht auflisten. Deaktivieren, um die CPU-Last "
-"zu reduzieren."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:317
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:286
 msgid "List of available reload trigger interface(s)."
 msgstr "Liste der verfügbaren Neuladeauslöser-Schnittstelle(n)."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:85
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:86
 msgid "List the elements of a specific banIP-related Set."
 msgstr "Auflistung der Elemente eines bestimmten banIP-bezogenen Sets."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:771
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:791
 msgid "Local Feed Settings"
 msgstr "Lokale Feed-Einstellungen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:607
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
 msgid ""
 "Location for parsing the log file, e.g. via syslog-ng, to deactivate the "
 "standard parsing via logread."
@@ -586,59 +655,63 @@ msgstr ""
 "Ort zum Parsen der Protokolldatei, z.B. über syslog-ng, um das "
 "Standardparsing über logread zu deaktivieren."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:624
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:621
 msgid "Log Count"
 msgstr "Anzahl der Protokolle"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
-msgid "Log LAN-Forward"
-msgstr "LAN-Weiterleitung protokollieren"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:598
+msgid "Log Inbound"
+msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:611
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:608
 msgid "Log Limit"
 msgstr "Protokollbegrenzung"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:601
+msgid "Log Outbound"
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:595
 msgid "Log Prerouting"
 msgstr "Protokoll-Prerouting"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:251
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:221
 msgid "Log Settings"
 msgstr "Protokolleinstellungen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:629
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:626
 msgid "Log Terms"
 msgstr "Protokollbedingungen"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:601
-msgid "Log WAN-Forward"
-msgstr "WAN-Weiterleitung protokollieren"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:598
-msgid "Log WAN-Input"
-msgstr "WAN-Eingang protokollieren"
+msgid "Log suspicious packets in the LAN-Forward chain."
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:595
-msgid "Log suspicious Prerouting packets."
-msgstr "Verdächtige Prerouting-Pakete protokollieren."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
-msgid "Log suspicious forwarded LAN packets."
-msgstr "Verdächtige weitergeleitete LAN-Pakete protokollieren."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:601
-msgid "Log suspicious forwarded WAN packets."
-msgstr "Verdächtige weitergeleitete WAN-Pakete protokollieren."
+msgid "Log suspicious packets in the Prerouting chain."
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:598
-msgid "Log suspicious incoming WAN packets."
-msgstr "Verdächtige eingehende WAN-Pakete protokollieren."
+msgid "Log suspicious packets in the WAN-Input and WAN-Forward chain."
+msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:607
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:604
 msgid "Logfile Location"
 msgstr "Protokolldatei-Standort"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:362
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:628
+msgid "LuCI failed login"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:156
+msgid "Map Reset"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:296
+msgid "Map..."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:331
 msgid "Max Open Files"
 msgstr "Max. geöffnete Dateien"
 
@@ -650,24 +723,27 @@ msgstr "NFT-Informationen"
 msgid "NFT Log Level"
 msgstr "NFT-Protokollniveau"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:282
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:252
 msgid "Network Devices"
 msgstr "Netzwerkadapter"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:350
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
 msgid "Nice Level"
 msgstr "Nice-Level"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:53
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:122
-msgid "No Search results!"
-msgstr "Keine Suchergebnisse!"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:292
+msgid "No GeoIP Map data!"
+msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:353
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:322
 msgid "Normal Priority"
 msgstr "Normale Priorität (Voreinstellung)"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:327
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:475
+msgid "Number of Set load attempts in case of an error."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
 msgid ""
 "Number of download attempts in case of an error (not supported by uclient-"
 "fetch)."
@@ -675,14 +751,54 @@ msgstr ""
 "Anzahl der Downloadversuche bei einem Fehler (nicht von uclient-fetch "
 "unterstützt)."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:624
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:621
 msgid ""
 "Number of failed login attempts of the same IP in the log before blocking."
 msgstr ""
 "Anzahl der fehlgeschlagenen Anmeldeversuche von der gleichen IP im Protokoll "
 "vor der Sperrung."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:312
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:561
+msgid "Opt out the feed from the deduplication process."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:251
+msgid "Outbound"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:531
+msgid "Outbound Feed"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:195
+msgid "Outbound&#160;(packets)"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:541
+msgid ""
+"Override the default feed configuration and apply the feed to the inbound "
+"and outbound chain."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:521
+msgid ""
+"Override the default feed configuration and apply the feed to the inbound "
+"chain only."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:531
+msgid ""
+"Override the default feed configuration and apply the feed to the outbound "
+"chain only."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:551
+msgid ""
+"Override the default feed configuration and remove existing port/protocol "
+"limitations."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:281
 msgid ""
 "Override the pre-configured download options for the selected download "
 "utility."
@@ -694,7 +810,7 @@ msgstr ""
 msgid "Overview"
 msgstr "Übersicht"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:611
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:608
 msgid ""
 "Parse only the last stated number of log entries for suspicious events. To "
 "disable the log monitor at all set it to '0'."
@@ -702,33 +818,33 @@ msgstr ""
 "Nur die zuletzt angegebene Anzahl von Protokoll-Einträgen für verdächtige "
 "Ereignisse parsen. Um den Protokoll-Monitor zu deaktivieren, auf '0' setzen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:165
-msgid "Port/Protocol Limit"
-msgstr "Port/Protokollbegrenzung"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:196
+msgid "Port&#160;/&#160;Protocol"
+msgstr ""
 
 #: applications/luci-app-banip/root/usr/share/luci/menu.d/luci-app-banip.json:76
 msgid "Processing Log"
 msgstr "Verarbeitungsprotokoll"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:676
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:681
 msgid "Profile used by 'msmtp' for banIP notification E-Mails."
 msgstr "Von 'msmtp' verwendetes Profil für banIP-Benachrichtigungs-E-Mails."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:209
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:222
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:763
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:213
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:238
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:783
 msgid "Protocol/URL format not supported"
 msgstr "Protokoll/URL-Format nicht unterstützt"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:730
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:740
 msgid "RIPE - serving Europe, Middle East and Central Asia"
 msgstr "RIPE - für Europa, Naher Osten und Zentralasien"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:661
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:666
 msgid "Receive E-Mail notifications with every banIP run."
 msgstr "Erhalten Sie E-Mail-Benachrichtigungen für jeden banIP-Lauf."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:664
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:669
 msgid ""
 "Receiver address for banIP notification E-Mails, this information is "
 "required to enable E-Mail functionality."
@@ -736,56 +852,45 @@ msgstr ""
 "Empfängeradresse für banIP-Benachrichtigungs-E-Mails. Diese Angabe ist "
 "erforderlich, um die E-Mail-Funktionalität zu aktivieren."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:252
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:317
 msgid "Refresh"
 msgstr "Aktualisieren"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:725
-#, fuzzy
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:735
 msgid "Regional Internet Registry"
-msgstr "Regionale Internetregistry"
+msgstr "Regionales Internetregister"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:228
-msgid "Reload"
-msgstr "Neu laden"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:626
+msgid "Regular expressions to detect suspicious IPs in the system log."
+msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:317
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:286
 msgid "Reload Trigger Interface"
 msgstr "Neuladeauslöser-Oberfläche"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:638
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:643
 msgid "Remote Token"
 msgstr "Entfernter Token"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:400
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:369
 msgid "Report Directory"
 msgstr "Report-Verzeichnis"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:408
-msgid "Report Elements"
-msgstr "Berichtselemente"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:235
-msgid "Restart"
-msgstr "Neustart"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:807
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:827
 msgid "Restrict the internet access from/to a small number of secure IPs."
 msgstr ""
 "Beschränken des Internetzugangs von/zu einer kleinen Anzahl von sicheren IPs."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:26
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:96
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:27
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:97
 msgid "Result"
 msgstr "Ergebnis"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:214
-#, fuzzy
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:218
 msgid "Rulev4"
 msgstr "Rulev4"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:227
-#, fuzzy
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:243
 msgid "Rulev6"
 msgstr "Rulev6"
 
@@ -797,11 +902,11 @@ msgstr "Laufzeit-Flags"
 msgid "Run Information"
 msgstr "Informationen zur Ausführung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:462
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:430
 msgid "SYN-Threshold"
 msgstr "SYN-Schwelle"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:462
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:430
 msgid ""
 "SYN-Threshold in packets per second to prevent WAN-DoS attacks. To disable "
 "this safeguard set it to '0'."
@@ -809,44 +914,68 @@ msgstr ""
 "SYN-Schwelle in Paketen pro Sekunde, um WAN-DoS Angriffe zu verhindern. Um "
 "diesen Schutz zu deaktivieren, auf '0' setzen."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:296
-msgid "Save Custom Feeds"
-msgstr "Benutzerdefinierte Feeds speichern"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:323
+msgid "Save"
+msgstr "Speichern"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:60
-msgid "Search"
-msgstr "Suche"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:846
+msgid "Save & Reload"
+msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:12
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:853
+msgid "Save & Restart"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:57
+msgid "Search IP"
+msgstr "IP suchen"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:13
 msgid "Search the banIP-related Sets for a specific IP."
 msgstr "Suche in den banIP-bezogenen Sets nach einer bestimmten IP."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:303
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:273
 msgid "Select one of the pre-configured download utilities."
 msgstr "Wählen Sie eines der vorkonfigurierten Download-Dienstprogramme."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:282
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:252
 msgid "Select the WAN network device(s)."
 msgstr "Wählen Sie das/die WAN-Netzwerkgerät(e)."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:289
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:259
 msgid "Select the logical WAN IPv4 network interface(s)."
 msgstr "Wählen Sie die logische(n) WAN-IPv4-Netzwerkschnittstelle(n) aus."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:296
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:266
 msgid "Select the logical WAN IPv6 network interface(s)."
 msgstr "Wählen Sie die logische(n) WAN-IPv6-Netzwerkschnittstelle(n) aus."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:668
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:673
 msgid "Sender address for banIP notification E-Mails."
 msgstr "Absenderadresse für banIP-Benachrichtigungs-E-Mails."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:88
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:160
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:89
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:192
 msgid "Set"
 msgstr "Set"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:498
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:85
+msgid "Set Content"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:303
+msgid "Set Content..."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:486
+msgid "Set Element Counter"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:475
+msgid "Set Load Retries"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:466
 #, fuzzy
 msgid "Set Policy"
 msgstr "Set-Richtlinie"
@@ -855,32 +984,21 @@ msgstr "Set-Richtlinie"
 msgid "Set Reporting"
 msgstr "Set-Berichte"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:382
-#, fuzzy
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:351
 msgid "Set Split Size"
 msgstr "Teilungsgröße festlegen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:84
-#, fuzzy
-msgid "Set Survey"
-msgstr "Umfrage einstellen"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:238
-#, fuzzy
-msgid "Set Survey..."
-msgstr "Umfrage einstellen..."
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:260
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:270
 msgid "Set details"
 msgstr "Details zum Set"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:420
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:389
 msgid ""
 "Set the nft chain priority within the banIP table, lower values means higher "
 "priority."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:498
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:466
 msgid "Set the nft policy for banIP-related Sets."
 msgstr ""
 
@@ -888,11 +1006,23 @@ msgstr ""
 msgid "Set the syslog level for NFT logging."
 msgstr "Legen Sie den Syslog-Level für die NFT-Protokollierung fest."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:245
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:215
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:382
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:126
+msgid "Show Content"
+msgstr "Inhalt anzeigen"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:756
+msgid "Split ASN Set"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:744
+msgid "Split Country Set"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:351
 msgid "Split external Set loading after every n members to save RAM."
 msgstr ""
 
@@ -900,31 +1030,31 @@ msgstr ""
 msgid "Status"
 msgstr "Status"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:221
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:839
 msgid "Stop"
 msgstr "Stopp"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:780
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:800
 msgid "Subnet"
 msgstr "Subnetz"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:129
-msgid "Survey"
-msgstr "Umfrage"
-
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:205
-msgid "System Information"
-msgstr "Systeminformationen"
+msgid "System Info"
+msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:249
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:219
 msgid "Table/Chain Settings"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:400
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:373
+msgid "Target directory for banIP-related error files."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:369
 msgid "Target directory for banIP-related report files."
 msgstr "Zielverzeichnis für banIP-bezogene Berichtsdateien."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:396
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:365
 msgid "Target directory for compressed feed backups."
 msgstr "Zielverzeichnis für komprimierte Feed-Sicherungen."
 
@@ -938,18 +1068,20 @@ msgid "The blocklist is too big, unable to save modifications."
 msgstr ""
 "Die Sperrliste ist zu groß, Änderungen können nicht gespeichert werden."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:629
-msgid ""
-"The default regular expressions are filtering suspicious ssh, LuCI, nginx "
-"and asterisk traffic."
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:756
+msgid "The selected ASNs are stored in separate Sets."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:350
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:744
+msgid "The selected Countries are stored in separate Sets."
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:319
 msgid "The selected priority will be used for banIP background processing."
 msgstr ""
 "Die gewählte Priorität wird für die BanIP-Hintergrundverarbeitung verwendet."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:40
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:39
 msgid ""
 "This is the local banIP allowlist that will permit certain MAC-, IP-"
 "addresses or domain names.<br /> <em><b>Please note:</b></em> add only "
@@ -957,7 +1089,7 @@ msgid ""
 "notation and MAC/IP-bindings are allowed."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/blocklist.js:40
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/blocklist.js:39
 msgid ""
 "This is the local banIP blocklist that will prevent certain MAC-, IP-"
 "addresses or domain names.<br /> <em><b>Please note:</b></em> add only "
@@ -965,81 +1097,83 @@ msgid ""
 "notation and MAC/IP-bindings are allowed."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:196
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:229
 msgid ""
-"This tab shows the last generated Set Report, press the 'Refresh' button to "
-"get a new one."
+"This report shows the latest NFT Set statistics, press the 'Refresh' button "
+"to get a new one. You can also display the specific content of Sets, search "
+"for suspicious IPs and finally, these IPs can also be displayed on a map."
 msgstr ""
-"Diese Registerkarte zeigt den zuletzt generierten Set-Bericht, klicken Sie "
-"auf die Schaltfläche \"Aktualisieren\", um einen neuen zu erhalten."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:199
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:233
 msgid "Timestamp"
 msgstr "Zeitstempel"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:658
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:663
 msgid ""
 "To enable email notifications, set up the 'msmtp' package and specify a "
 "vaild E-Mail receiver address."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:638
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:643
 msgid "Token to communicate with the cgi interface."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:672
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:677
 msgid "Topic for banIP notification E-Mails."
 msgstr "Betreff für banIP-Benachrichtigungs-E-Mails."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:322
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:291
 msgid "Trigger Delay"
 msgstr "Verzögerung der Trigger-Bedingung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:476
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:444
 msgid "UDP-Threshold"
-msgstr ""
+msgstr "UDP-Schwellenwert"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:476
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:444
 msgid ""
 "UDP-Threshold in packets per second to prevent WAN-DoS attacks. To disable "
 "this safeguard set it to '0'."
 msgstr ""
+"UDP-Schwellenwert in Paketen pro Sekunde zur Verhinderung von WAN-DoS-"
+"Angriffen. Um diese Schutzmaßnahme zu deaktivieren, setzen Sie den Wert auf "
+"‚0‘."
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:203
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:207
 msgid "URLv4"
-msgstr ""
+msgstr "URLv4"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:216
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:232
 msgid "URLv6"
-msgstr ""
+msgstr "URLv6"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:715
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:725
 msgid "Unable to parse the countries file!"
-msgstr ""
+msgstr "Länderdatei kann nicht geparst werden!"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:529
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:509
 msgid "Unable to parse the custom feed file!"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:536
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:516
 msgid "Unable to parse the default feed file!"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:152
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:183
 msgid "Unable to parse the report file!"
-msgstr ""
+msgstr "Berichtsdatei kann nicht geparst werden!"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:73
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:72
 msgid "Unable to parse the ruleset file!"
-msgstr ""
+msgstr "Regelsatzdatei kann nicht geparst werden!"
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/allowlist.js:28
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/blocklist.js:28
 msgid "Unable to save modifications: %s"
 msgstr "Änderungen können nicht gespeichert werden: %s"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:269
-msgid "Upload Custom Feeds"
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:296
+msgid "Upload"
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:72
@@ -1048,7 +1182,7 @@ msgstr ""
 msgid "Upload of the custom feed file failed."
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:266
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:236
 msgid "Verbose Debug Logging"
 msgstr "Ausführliche Debug-Protokollierung"
 
@@ -1056,25 +1190,7 @@ msgstr "Ausführliche Debug-Protokollierung"
 msgid "Version"
 msgstr "Version"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:163
-msgid "WAN-Forward (packets)"
-msgstr "WAN-Forward (Pakete)"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:518
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:551
-msgid "WAN-Forward Chain"
-msgstr "WAN-Forward-Kette"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:162
-msgid "WAN-Input (packets)"
-msgstr "WAN-Input (Pakete)"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:517
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:541
-msgid "WAN-Input Chain"
-msgstr "WAN-Input-Kette"
-
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:174
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/feeds.js:177
 msgid ""
 "With this editor you can upload your local custom feed file or fill up an "
 "initial one (a 1:1 copy of the version shipped with the package). The file "
@@ -1087,11 +1203,15 @@ msgstr ""
 msgid "alert"
 msgstr "Alarm"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:225
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:631
+msgid "asterisk invalid account"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:259
 msgid "auto-added IPs to allowlist"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:229
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:263
 msgid "auto-added IPs to blocklist"
 msgstr ""
 
@@ -1099,23 +1219,23 @@ msgstr ""
 msgid "banIP"
 msgstr "banIP"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:212
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:246
 msgid "blocked icmp-flood packets"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:216
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:250
 msgid "blocked invalid ct packets"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:220
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:254
 msgid "blocked invalid tcp packets"
-msgstr ""
+msgstr "blockierte ungültige TCP-Pakete"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:204
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:238
 msgid "blocked syn-flood packets"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:208
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/setreport.js:242
 msgid "blocked udp-flood packets"
 msgstr ""
 
@@ -1127,9 +1247,13 @@ msgstr "crit"
 msgid "debug"
 msgstr "debug"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:508
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:495
 msgid "drop"
 msgstr "verwerfen"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:627
+msgid "dropbear failed login"
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:581
 msgid "emerg"
@@ -1143,37 +1267,194 @@ msgstr "err"
 msgid "info"
 msgstr "info"
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:522
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:532
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:542
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:552
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:562
 msgid "local allowlist"
 msgstr ""
 
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:523
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:533
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:543
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:553
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:563
 msgid "local blocklist"
 msgstr ""
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:499
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:467
 msgid "memory"
 msgstr "Speicher"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:632
+msgid "nginx suspicious IP"
+msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:586
 msgid "notice"
 msgstr "notice"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:500
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:633
+msgid "openvpn TLS error"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:468
 msgid "performance"
 msgstr "Leistung"
 
-#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:509
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:496
 msgid "reject"
+msgstr "ablehnen"
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:630
+msgid "sshd closed connection"
+msgstr ""
+
+#: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:629
+msgid "sshd failed login"
 msgstr ""
 
 #: applications/luci-app-banip/htdocs/luci-static/resources/view/banip/overview.js:585
 msgid "warn"
 msgstr "warn"
+
+#~ msgid "No Search results!"
+#~ msgstr "Keine Suchergebnisse!"
+
+#~ msgid "Search"
+#~ msgstr "Suche"
+
+#~ msgid "Set Survey"
+#~ msgstr "Umfrage festlegen"
+
+#~ msgid "Set Survey..."
+#~ msgstr "Umfrage festlegen..."
+
+#~ msgid "Survey"
+#~ msgstr "Umfrage"
+
+#~ msgid ""
+#~ "This tab shows the last generated Set Report, press the 'Refresh' button "
+#~ "to get a new one."
+#~ msgstr ""
+#~ "Diese Registerkarte zeigt den zuletzt generierten Set-Bericht, klicken "
+#~ "Sie auf die Schaltfläche \"Aktualisieren\", um einen neuen zu erhalten."
+
+#~ msgid "Block Type"
+#~ msgstr "Blocktyp"
+
+#~ msgid ""
+#~ "By default each feed is active in all supported chains. Limit the default "
+#~ "block policy to a certain chain."
+#~ msgstr ""
+#~ "Standardmäßig ist jeder Feed in allen unterstützten Ketten aktiv. "
+#~ "Beschränken Sie die Standard-Block-Richtlinie auf eine bestimmte Kette."
+
+#~ msgid "Clear Custom Feeds"
+#~ msgstr "Benutzerdefinierte Feeds leeren"
+
+#~ msgid "Default Block Policy"
+#~ msgstr "Voreingestellte Block-Richtlinie"
+
+#~ msgid "Domain Lookup"
+#~ msgstr "Domain-Lookup"
+
+#~ msgid "Download Custom Feeds"
+#~ msgstr "Benutzerdefinierte Feeds herunterladen"
+
+#~ msgid ""
+#~ "Drop packets silently or actively reject the traffic on WAN-Input and WAN-"
+#~ "Forward chains."
+#~ msgstr ""
+#~ "Pakete still verwerfen oder den Verkehr auf WAN-EIngangs- und WAN-"
+#~ "Weiterleitungsketten aktiv ablehnen."
+
+#~ msgid "Edit Custom Feeds"
+#~ msgstr "Benutzerdefinierte Feeds bearbeiten"
+
+#~ msgid "Fill Custom Feeds"
+#~ msgstr "Benutzerdefinierte Feeds füllen"
+
+#~ msgid "LAN-Forward (packets)"
+#~ msgstr "LAN-Forward (Pakete)"
+
+#~ msgid "LAN-Forward Chain"
+#~ msgstr "LAN-Forward-Kette"
+
+#~ msgid "Limit certain feeds to the LAN-Forward chain."
+#~ msgstr "Beschränken bestimmter Feeds auf die LAN-Forward-Kette."
+
+#~ msgid "Limit certain feeds to the WAN-Forward chain."
+#~ msgstr "Beschränken bestimmter Feeds auf die WAN-Forward-Kette."
+
+#~ msgid "Limit certain feeds to the WAN-Input chain."
+#~ msgstr "Beschränken bestimmter Feeds auf die WAN-Eingang-Kette."
+
+#~ msgid ""
+#~ "List Set elements in the status and report, disable this to reduce the "
+#~ "CPU load."
+#~ msgstr ""
+#~ "Set-Elemente im Status und Bericht auflisten. Deaktivieren, um die CPU-"
+#~ "Last zu reduzieren."
+
+#~ msgid "Log LAN-Forward"
+#~ msgstr "LAN-Weiterleitung protokollieren"
+
+#~ msgid "Log WAN-Forward"
+#~ msgstr "WAN-Weiterleitung protokollieren"
+
+#~ msgid "Log WAN-Input"
+#~ msgstr "WAN-Eingang protokollieren"
+
+#~ msgid "Log suspicious Prerouting packets."
+#~ msgstr "Verdächtige Prerouting-Pakete protokollieren."
+
+#~ msgid "Log suspicious forwarded LAN packets."
+#~ msgstr "Verdächtige weitergeleitete LAN-Pakete protokollieren."
+
+#~ msgid "Log suspicious forwarded WAN packets."
+#~ msgstr "Verdächtige weitergeleitete WAN-Pakete protokollieren."
+
+#~ msgid "Log suspicious incoming WAN packets."
+#~ msgstr "Verdächtige eingehende WAN-Pakete protokollieren."
+
+#~ msgid "Port/Protocol Limit"
+#~ msgstr "Port/Protokollbegrenzung"
+
+#~ msgid "Reload"
+#~ msgstr "Neu laden"
+
+#~ msgid "Report Elements"
+#~ msgstr "Berichtselemente"
+
+#~ msgid "Restart"
+#~ msgstr "Neustart"
+
+#~ msgid "Save Custom Feeds"
+#~ msgstr "Benutzerdefinierte Feeds speichern"
+
+#~ msgid "System Information"
+#~ msgstr "Systeminformationen"
+
+#~ msgid ""
+#~ "The default regular expressions are filtering suspicious ssh, LuCI, nginx "
+#~ "and asterisk traffic."
+#~ msgstr ""
+#~ "Die standardmäßigen regulären Ausdrücke filtern verdächtigen ssh-, LuCI-, "
+#~ "nginx- und asterisk-Datenverkehr."
+
+#~ msgid "WAN-Forward (packets)"
+#~ msgstr "WAN-Forward (Pakete)"
+
+#~ msgid "WAN-Forward Chain"
+#~ msgstr "WAN-Forward-Kette"
+
+#~ msgid "WAN-Input (packets)"
+#~ msgstr "WAN-Input (Pakete)"
+
+#~ msgid "WAN-Input Chain"
+#~ msgstr "WAN-Input-Kette"
 
 #~ msgid ""
 #~ "Allowlist modifications have been saved, start the Domain Lookup or "
@@ -1756,9 +2037,6 @@ msgstr "warn"
 
 #~ msgid "SSH Log Count"
 #~ msgstr "Anzahl der SSH-Protokolle"
-
-#~ msgid "Save"
-#~ msgstr "Speichern"
 
 #~ msgid ""
 #~ "Search the active banIP-related IPSets for a specific IP, CIDR or MAC "

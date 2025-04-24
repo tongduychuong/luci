@@ -109,7 +109,7 @@ return network.registerProtocol('wireguard', {
 		return this._ubus('l3_device') || this.sid;
 	},
 
-	getOpkgPackage: function() {
+	getPackageName: function() {
 		return 'wireguard-tools';
 	},
 
@@ -184,7 +184,7 @@ return network.registerProtocol('wireguard', {
 		o.placeholder = '1420';
 		o.optional = true;
 
-		o = s.taboption('advanced', form.Value, 'fwmark', _('Firewall Mark'), _('Optional. 32-bit mark for outgoing encrypted packets. Enter value in hex, starting with <code>0x</code>.'));
+		o = s.taboption('advanced', form.Value, 'fwmark', _('Firewall Mark'), _('Optional. 32-bit mark for packets during firewall processing. Enter value in hex, starting with <code>0x</code>.'));
 		o.optional = true;
 		o.validate = function(section_id, value) {
 			if (value.length > 0 && !value.match(/^0x[a-fA-F0-9]{1,8}$/))
@@ -210,6 +210,7 @@ return network.registerProtocol('wireguard', {
 		ss.addbtntitle = _('Add peer');
 		ss.nodescriptions = true;
 		ss.modaltitle = _('Edit peer');
+		ss.sortable = true;
 
 		ss.handleDragConfig = function(ev) {
 			ev.stopPropagation();
@@ -421,7 +422,7 @@ return network.registerProtocol('wireguard', {
 					E('p', _('Drag or paste a valid <em>*.conf</em> file below to configure the local WireGuard interface.'))
 				] : [
 					E('p', _('Paste or drag a WireGuard configuration (commonly <em>wg0.conf</em>) from another system below to create a matching peer entry allowing that system to connect to the local WireGuard interface.')),
-					E('p', _('To fully configure the local WireGuard interface from an existing (e.g. provider supplied) configuration file, use the <strong><a class="full-import" href="#">configuration import</a></strong> instead.'))
+					E('p', _('To configure fully the local WireGuard interface from an existing (e.g. provider supplied) configuration file, use the <strong><a class="full-import" href="#">configuration import</a></strong> instead.'))
 				]),
 				E('p', [
 					E('textarea', {
@@ -723,12 +724,12 @@ return network.registerProtocol('wireguard', {
 				var hostnames = [];
 
 				uci.sections('ddns', 'service', function(s) {
-					if (typeof(s.lookup_host) == 'string' && s.enabled == '1')
+					if (typeof(s?.lookup_host) == 'string' && s?.enabled == '1')
 						hostnames.push(s.lookup_host);
 				});
 
 				uci.sections('system', 'system', function(s) {
-					if (typeof(s.hostname) == 'string' && s.hostname.indexOf('.') > 0)
+					if (typeof(s?.hostname) == 'string' && s?.hostname?.indexOf('.') > 0)
 						hostnames.push(s.hostname);
 				});
 

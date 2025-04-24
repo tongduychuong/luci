@@ -1,12 +1,18 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2025-03-30 10:58+0000\n"
+"Last-Translator: 翻譯得真好下次別翻了 <x86_64-pc-linux-gnu@proton.me>\n"
+"Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
+"projects/openwrt/luciapplicationslldpd/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:374
 msgid "1A"
-msgstr ""
+msgstr "1A"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:54
 msgid "Administrative Status"
@@ -14,10 +20,10 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:841
 msgid "Advanced Settings"
-msgstr ""
+msgstr "進階設定"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:198
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:209
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:191
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:202
 msgid "Age"
 msgstr ""
 
@@ -52,27 +58,27 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:728
 msgid "CDP"
-msgstr ""
+msgstr "CDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:738
 msgid "CDP version"
-msgstr ""
+msgstr "CDP版本"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:740
 msgid "CDPv1 and CDPv2"
-msgstr ""
+msgstr "CDPv1和CDPv2"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:39
 msgid "Cannot have both interface %s and its exclusion %s"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:319
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:289
 msgid "Capabilities"
 msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:338
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:206
 msgid "Civic address"
@@ -80,9 +86,9 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:46
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:65
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:681
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:613
 msgid "Collecting data..."
-msgstr ""
+msgstr "收集資料中..."
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:588
 msgid "Communication Device Endpoints (Class III)"
@@ -94,7 +100,7 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:321
 msgid "Country"
-msgstr ""
+msgstr "國家"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:307
 msgid "Datum"
@@ -111,9 +117,9 @@ msgstr ""
 msgid "Delete count"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:273
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:266
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:483
 msgid ""
@@ -131,9 +137,9 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:152
 msgid "Disabled"
-msgstr ""
+msgstr "已停用"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:687
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:619
 msgid "Discovered Neighbors"
 msgstr ""
 
@@ -147,15 +153,15 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:788
 msgid "EDP"
-msgstr ""
+msgstr "EDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:207
 msgid "ELIN"
-msgstr ""
+msgstr "ELIN"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:389
 msgid "ELIN Address"
-msgstr ""
+msgstr "ELIN位址"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:364
 msgid "Empire State Bldg"
@@ -163,27 +169,27 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:730
 msgid "Enable CDP"
-msgstr ""
+msgstr "啟用CDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:790
 msgid "Enable EDP"
-msgstr ""
+msgstr "啟用EDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:770
 msgid "Enable FDP"
-msgstr ""
+msgstr "啟用FDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:708
 msgid "Enable LLDP"
-msgstr ""
+msgstr "啟用LLDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:816
 msgid "Enable SONMP"
-msgstr ""
+msgstr "啟用SONMP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:89
 msgid "Enable service"
-msgstr ""
+msgstr "啟用服務"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:731
 msgid ""
@@ -217,11 +223,11 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:768
 msgid "FDP"
-msgstr ""
+msgstr "FDP"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:162
 msgid "Filter"
-msgstr ""
+msgstr "篩選"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:663
 msgid "Force port ID subtype"
@@ -241,7 +247,7 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:344
 msgid "Gotham"
-msgstr ""
+msgstr "高譚"
 
 #: applications/luci-app-lldpd/root/usr/share/rpcd/acl.d/luci-app-lldpd.json:18
 msgid "Grant access for LLDP configuration"
@@ -255,21 +261,21 @@ msgstr ""
 msgid "Host location type"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:276
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:272
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:277
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:273
 msgid "ID type"
 msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:116
 msgid "IP address"
-msgstr ""
+msgstr "IP位址"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:163
 msgid "Incoming"
-msgstr ""
+msgstr "傳入"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:60
 msgid "Insert count"
@@ -277,16 +283,16 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:667
 msgid "Interface MAC address"
-msgstr ""
+msgstr "介面MAC位址"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:688
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:620
 msgid "Interface Statistics"
 msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:668
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:112
 msgid "Interface name"
-msgstr ""
+msgstr "介面名稱"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:648
 msgid ""
@@ -297,11 +303,11 @@ msgstr ""
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:706
 #: applications/luci-app-lldpd/root/usr/share/luci/menu.d/luci-app-lldpd.json:3
 msgid "LLDP"
-msgstr ""
+msgstr "LLDP"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:671
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:603
 msgid "LLDP Status"
-msgstr ""
+msgstr "LLDP狀態"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:584
 msgid "LLDP-MED device class"
@@ -344,9 +350,9 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:257
 msgid "Latitude"
-msgstr ""
+msgstr "緯度"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:676
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:608
 msgid "Local Chassis"
 msgstr ""
 
@@ -357,25 +363,25 @@ msgstr ""
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:39
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:52
 msgid "Local interface"
-msgstr ""
+msgstr "本地介面"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:273
 msgid "Longitude"
-msgstr ""
+msgstr "經度"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:110
 msgid "MAC address"
-msgstr ""
+msgstr "MAC位址"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:233
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:222
 msgid "MFS"
-msgstr ""
+msgstr "MFS"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:354
 msgid "Main Street"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:295
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:280
 msgid "Management IP(s)"
 msgstr ""
 
@@ -399,11 +405,11 @@ msgstr ""
 msgid "Must start: application ..."
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:197
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:208
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:270
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:190
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:201
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:262
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:589
 msgid "Network Connectivity Device (Class IV)"
@@ -419,17 +425,17 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:838
 msgid "Network Interfaces"
-msgstr ""
+msgstr "網路介面"
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:603
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:660
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:664
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:562
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:592
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:596
 msgid "No data to display"
 msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:368
 msgid "Number"
-msgstr ""
+msgstr "數字"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:854
 msgid "On this page you may configure LLDPd parameters."
@@ -441,7 +447,7 @@ msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:164
 msgid "Outgoing"
-msgstr ""
+msgstr "傳出"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:117
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:124
@@ -454,15 +460,15 @@ msgstr ""
 msgid "Override the announced location of the host."
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:216
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:210
 msgid "Port ID"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:219
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:211
 msgid "Port ID type"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:224
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:215
 msgid "Port description"
 msgstr ""
 
@@ -473,11 +479,11 @@ msgstr ""
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:40
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:53
 msgid "Protocol"
-msgstr ""
+msgstr "協定"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:844
 msgid "Protocols Support"
-msgstr ""
+msgstr "協定支援"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:226
 msgid "Raw config string sent to lldpd, starting: [coordinate|address|elin]"
@@ -537,7 +543,7 @@ msgstr ""
 
 #: applications/luci-app-lldpd/root/usr/share/luci/menu.d/luci-app-lldpd.json:28
 msgid "Settings"
-msgstr ""
+msgstr "設定"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:655
 msgid "Specify the behaviour when detecting multiple neighbors"
@@ -558,7 +564,7 @@ msgstr ""
 
 #: applications/luci-app-lldpd/root/usr/share/luci/menu.d/luci-app-lldpd.json:16
 msgid "Status"
-msgstr ""
+msgstr "狀態"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:348
 msgid "Street"
@@ -596,10 +602,9 @@ msgstr ""
 msgid "System platform description"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:228
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:230
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:219
 msgid "TTL"
-msgstr ""
+msgstr "TTL"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:402
 msgid "The default description is the kernel name (Linux)."
@@ -618,7 +623,7 @@ msgid ""
 "The delay between transmissions of LLDP PDU. The default value is 30 seconds."
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:672
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:604
 msgid ""
 "This page allows you to see discovered LLDP neighbors, local interfaces "
 "statistics and local chassis information."
@@ -653,9 +658,9 @@ msgid "Tx only"
 msgstr ""
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:154
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:262
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:252
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/config.js:574
 msgid ""
@@ -669,19 +674,17 @@ msgid ""
 "or the MAC address."
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:307
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:316
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:287
 msgid "disabled"
-msgstr ""
+msgstr "已停用"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:46
 msgid "enable filter"
 msgstr ""
 
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:307
-#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:316
+#: applications/luci-app-lldpd/htdocs/luci-static/resources/view/lldpd/status.js:287
 msgid "enabled"
-msgstr ""
+msgstr "已啟用"
 
 #: applications/luci-app-lldpd/htdocs/luci-static/resources/lldpd.js:48
 msgid "keep only one neighbor"

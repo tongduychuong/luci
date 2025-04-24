@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-09-06 19:05+0000\n"
+"PO-Revision-Date: 2024-10-09 14:31+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationstravelmate/ga/>\n"
@@ -173,7 +173,7 @@ msgstr "Ainm Gléas"
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:448
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/stations.js:1003
 msgid "Disabled"
-msgstr "Faoi mhíchumas"
+msgstr "Díchumasaithe"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:46
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:131
@@ -523,8 +523,8 @@ msgstr "Bain an líonra seo"
 
 #: applications/luci-app-travelmate/htdocs/luci-static/resources/view/travelmate/overview.js:117
 msgid ""
-"Render the QR-Code of the selected Access Point to comfortably transfer the "
-"WLAN credentials to your mobile devices."
+"Render the QR-Code of the selected Access Point to transfer the WLAN "
+"credentials to your mobile devices comfortably."
 msgstr ""
 "Déan cód QR an Phointe Rochtana roghnaithe chun na dintiúir WLAN a aistriú "
 "go compordach chuig do ghléasanna soghluaiste."

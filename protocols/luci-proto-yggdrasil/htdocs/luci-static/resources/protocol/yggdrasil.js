@@ -33,13 +33,13 @@ function validateYggdrasilListenUri(section_id,value) {
 	if (value.length == 0) {
 		return true;
 	};
-	if (!value.match(/^(tls|tcp|unix|quic):\/\//))
+	if (!value.match(/^(tls|tcp|quic|unix|ws):\/\//))
 		return _('Unsupported URI scheme in %s').format(value);
 	return true;
 };
 
 function validateYggdrasilPeerUri(section_id,value) {
-	if (!value.match(/^(tls|tcp|unix|quic|socks|sockstls):\/\//))
+	if (!value.match(/^(tls|tcp|quic|socks|sockstls|unix|ws|wss):\/\//))
 		return _('URI scheme %s not supported').format(value);
 	return true;
 };
@@ -98,7 +98,7 @@ function updateActivePeers(ifname) {
 
 				cell = row.insertCell(-1)
 				cell.className = "td"
-				cell.textContent = '%.2f ms'.format(peer.latency_ms / 10**6);
+				cell.textContent = '%.2f ms'.format(peer.latency / 10**6);
 
 				cell = row.insertCell(-1)
 				cell.className = "td"
@@ -210,7 +210,7 @@ return network.registerProtocol('yggdrasil',
 		getType: function() {
 			return "tunnel";
 		},
-		getOpkgPackage: function() {
+		getPackageName: function() {
 			return 'yggdrasil';
 		},
 		isFloating: function() {
@@ -308,7 +308,7 @@ return network.registerProtocol('yggdrasil',
 				form.HiddenValue,
 				'hidden_value',
 				' ',
-				_('%s is an independent project that aims to transparently reduce latency of a connection over Yggdrasil network, utilizing NAT traversal to bypass intermediary nodes.'.format('<a href="https://github.com/one-d-wide/yggdrasil-jumper">Yggdrasil Jumper</a>'))
+				_('%s is an independent project that aims to reduce latency of a connection over Yggdrasil network transparently, utilizing NAT traversal to bypass intermediary nodes.'.format('<a href="https://github.com/one-d-wide/yggdrasil-jumper">Yggdrasil Jumper</a>'))
 					+ ' ' + _('It periodically probes for active sessions and automatically establishes direct peerings over internet with remote nodes running Yggdrasil Jumper without requiring firewall or port configuration.')
 			);
 
@@ -353,7 +353,7 @@ return network.registerProtocol('yggdrasil',
 				form.Flag,
 				'allocate_listen_addresses',
 				_('Allocate listen addresses'),
-				_('Allow Yggdrasil Jumper to automatically configure Yggdrasil with proper listen address and random port.')
+				_('Allow Yggdrasil Jumper to configure Yggdrasil with proper listen address and random port automatically.')
 			);
 			o.default=true;
 			o.rmempty=false;

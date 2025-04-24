@@ -1,19 +1,25 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-12-02 19:58+0000\n"
+"Last-Translator: \"L. VLO\" <veloso.lu@googlemail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/openwrt/"
+"luciapplicationsusteer/fr/>\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:79
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:233
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:254
 msgctxt "Name or IP address of access point"
 msgid "AP"
-msgstr ""
+msgstr "AP (Point d'accès)"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:424
 msgid "All debug messages"
-msgstr ""
+msgstr "Tous les messages en debug"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:486
 msgid "Allow ignoring probe requests for steering purposes"
@@ -109,7 +115,7 @@ msgstr ""
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:220
 msgid "Hostname"
-msgstr ""
+msgstr "Nom d'hôte (hostname)"
 
 #: applications/luci-app-usteer/htdocs/luci-static/resources/view/usteer/usteer.js:219
 msgid "IP address"

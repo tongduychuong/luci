@@ -114,7 +114,7 @@ function handleAction(ev) {
 				}
 			}, optionsAP);
 			L.ui.showModal(_('QR-Code Overview'), [
-				E('p', _('Render the QR-Code of the selected Access Point to comfortably transfer the WLAN credentials to your mobile devices.')),
+				E('p', _('Render the QR-Code of the selected Access Point to transfer the WLAN credentials to your mobile devices comfortably.')),
 				E('div', { 'class': 'left', 'style': 'display:flex; flex-direction:column' }, [
 					E('label', { 'class': 'cbi-input-select', 'style': 'padding-top:.5em' }, [
 						selectAP,
@@ -143,7 +143,7 @@ return view.extend({
 	},
 
 	render: function (result) {
-		var m, s, o;
+		let m, s, o;
 
 		m = new form.Map('travelmate', 'Travelmate', _('Configuration of the travelmate package to enable travel router functionality. \
 			For further information <a href="https://github.com/openwrt/packages/blob/master/net/travelmate/files/README.md" target="_blank" rel="noreferrer noopener" >check the online documentation</a>. <br /> \

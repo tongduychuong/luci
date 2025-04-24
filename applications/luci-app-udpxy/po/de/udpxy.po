@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-19 17:04+0000\n"
+"PO-Revision-Date: 2024-10-20 13:17+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsudpxy/de/>\n"
@@ -8,39 +8,48 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.8-rc\n"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:52
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:207
 msgid "-1 is all."
-msgstr ""
+msgstr "-1 ist alles."
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:56
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:211
 msgid "-1 is unlimited."
-msgstr ""
+msgstr "-1 ist unbegrenzt."
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:52
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:117
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:121
+msgid "Absent Interface"
+msgstr "Nicht vorhandene Schnittstelle"
+
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:207
 msgid "Buffer message amount"
-msgstr ""
+msgstr "Puffer-Nachrichtenmenge"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:56
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:211
 msgid "Buffer time limit"
-msgstr ""
+msgstr "Pufferzeitgrenze"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:43
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:198
 msgid "Client amount upper limit"
-msgstr ""
+msgstr "Clientmenge obere Grenze"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:28
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:175
 msgid "Client statistics"
-msgstr ""
+msgstr "Kundenstatistik"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:34
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:38
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:46
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:144
+msgid "Custom Value"
+msgstr "Benutzerdefinierter Wert"
+
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:181
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:193
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:201
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:16
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:163
 msgid "Enabled"
 msgstr "Aktiviert"
 
@@ -48,60 +57,79 @@ msgstr "Aktiviert"
 msgid "Grant UCI access for luci-app-udpxy"
 msgstr "Erlaube UCI Zugriff für luci-app-udpxy"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:30
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:177
 msgid "HTTP Listen interface"
-msgstr ""
+msgstr "HTTP Horch-Schnittstelle"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:49
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:204
 msgid "Ingress buffer size"
-msgstr ""
+msgstr "Ingresspuffergröße"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:46
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:201
 msgid "Log file"
 msgstr "Protokolldatei"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:38
-msgid "Multicast subscribe source interface"
-msgstr ""
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:186
+msgid "Multicast subscribe Source Network"
+msgstr "Multicast abonnieren Quellennetzwerk"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:60
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:192
+msgid "Multicast subscribe source interface"
+msgstr "Multicast abonnieren Quellschnittstelle"
+
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:215
 msgid "Nice increment"
 msgstr "Nettes Inkrement"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:34
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:181
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:64
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:219
 msgid "Renew multicast subscription periodicity"
-msgstr ""
+msgstr "Multicast-Abonnement-Periodizität erneuern"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:22
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:169
 msgid "Respawn"
 msgstr "Erneut starten"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:49
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:204
 msgid "Unit: bytes, Kb, Mb; Max 2097152 bytes"
-msgstr ""
+msgstr "Einheit: Bytes, Kb, Mb; Max. 2097152 Bytes"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:64
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:219
 msgid "Unit: seconds; 0 is skip."
-msgstr ""
+msgstr "Einheit: Sekunden; 0 ist überspringen."
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:25
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:172
 msgid "Verbose logging"
-msgstr ""
+msgstr "Ausführliche Protokollierung"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:9
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:187
+msgid "When the network is reloaded, the udpxy is reloaded"
+msgstr "Wenn das Netzwerk neu geladen wird, wird der udpxy neu geladen"
+
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:136
+msgid "custom"
+msgstr "benutzerdefiniert"
+
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:156
 #: applications/luci-app-udpxy/root/usr/share/luci/menu.d/luci-app-udpxy.json:3
 msgid "udpxy"
 msgstr "udpxy"
 
-#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:10
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:157
 msgid ""
 "udpxy is an IPTV stream relay, a UDP-to-HTTP multicast traffic relay daemon "
 "which forwards multicast UDP streams to HTTP clients."
 msgstr ""
+"udpxy ist ein IPTV-Streamrelais, ein UDP-zo-HTTP-Multicast-Transferrelais-"
+"Daemon, das Multicast-UDP-Streams an HTTP-Clients weiterleitet."
+
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:39
+#: applications/luci-app-udpxy/htdocs/luci-static/resources/view/udpxy.js:135
+msgid "unspecified"
+msgstr "unspezifiziert"
 
 #~ msgid "Bind IP/Interface"
 #~ msgstr "IP/Schnittstelle anbinden"

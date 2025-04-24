@@ -131,7 +131,7 @@ return view.extend({
 	},
 
 	render: function(result) {
-		var m, s, o;
+		let m, s, o;
 
 		m = new form.Map('adblock', 'Adblock', _('Configuration of the adblock package to block ad/abuse domains by using DNS. \
 			For further information <a href="https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md" target="_blank" rel="noreferrer noopener" >check the online documentation</a>'));
@@ -173,16 +173,16 @@ return view.extend({
 				}
 				var domains = document.getElementById('domains');
 				if (domains && info) {
-					domains.textContent = parseInt(info.blocked_domains, 10).toLocaleString() || '-';
+					domains.textContent = info.blocked_domains || '-';
 				}
 				var sources = document.getElementById('sources');
 				var src_array = [];
 				if (sources && info) {
 					for (var i = 0; i < info.active_sources.length; i++) {
 						if (i < info.active_sources.length-1) {
-							src_array += info.active_sources[i].source + ', ';
+							src_array += info.active_sources[i] + ', ';
 						} else {
-							src_array += info.active_sources[i].source
+							src_array += info.active_sources[i]
 						}
 					}
 					sources.textContent = src_array || '-';
@@ -333,6 +333,10 @@ return view.extend({
 		o.value('5353');
 		o.rmempty = true;
 
+		o = s.taboption('general', form.Flag, 'adb_tld', _('TLD Compression'), _('The top level domain compression removes thousands of needless host entries from the final DNS blocklist.'));
+		o.default = 1
+		o.rmempty = true;
+
 		o = s.taboption('general', form.Flag, 'adb_safesearch', _('Enable SafeSearch'), _('Enforcing SafeSearch for google, bing, duckduckgo, yandex, youtube and pixabay.'));
 		o.rmempty = false;
 
@@ -417,6 +421,7 @@ return view.extend({
 		o.value('dnsmasq', _('dnsmasq (/tmp/dnsmasq.d)'));
 		o.value('unbound', _('unbound (/var/lib/unbound)'));
 		o.value('named', _('bind (/var/lib/bind)'));
+		o.value('smartdns', _('smartdns (/tmp/smartdns)'));
 		o.value('kresd', _('kresd (/etc/kresd)'));
 		o.value('raw', _('raw (/tmp)'));
 		o.optional = true;
@@ -518,11 +523,6 @@ return view.extend({
 
 		o = s.taboption('adv_email', form.Value, 'adb_mailprofile', _('E-Mail Profile'), _('Profile used by \'msmtp\' for adblock notification E-Mails.'));
 		o.placeholder = 'adb_notify';
-		o.rmempty = true;
-
-		o = s.taboption('adv_email', form.Value, 'adb_mailcnt', _('E-Mail Notification Count'), _('Raise the notification count, to get E-Mails if the overall blocklist count is less or equal to the given limit.'));
-		o.placeholder = '0';
-		o.datatype = 'min(0)';
 		o.rmempty = true;
 
 		/*

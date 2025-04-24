@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2023-06-20 16:22+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-02-07 23:07+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationscommands/de/>\n"
 "Language: de\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: applications/luci-app-commands/htdocs/luci-static/resources/view/commands.js:19
 msgid "A short textual description of the configured command"
@@ -28,13 +28,13 @@ msgstr ""
 msgid "Allow the user to provide additional command line arguments"
 msgstr "Erlaube dem Nutzer zusätzliche Kommandozeilenargumente zu übergeben"
 
-#: applications/luci-app-commands/ucode/template/commands.ut:144
+#: applications/luci-app-commands/ucode/template/commands.ut:145
 msgid "Arguments:"
 msgstr "Argumente:"
 
-#: applications/luci-app-commands/ucode/template/commands.ut:162
+#: applications/luci-app-commands/ucode/template/commands.ut:163
 msgid "Collecting data..."
-msgstr "Sammle Daten..."
+msgstr "Daten werden gesammelt..."
 
 #: applications/luci-app-commands/htdocs/luci-static/resources/view/commands.js:21
 msgid "Command"
@@ -52,7 +52,7 @@ msgstr "Befehl wurde mit Statuscode %d beendet"
 msgid "Command line to execute"
 msgstr "Auszuführende Kommandozeile"
 
-#: applications/luci-app-commands/ucode/template/commands.ut:142
+#: applications/luci-app-commands/ucode/template/commands.ut:143
 msgid "Command:"
 msgstr "Kommando:"
 
@@ -62,7 +62,7 @@ msgstr "Konfigurieren"
 
 #: applications/luci-app-commands/htdocs/luci-static/resources/view/commands.js:10
 #: applications/luci-app-commands/root/usr/share/luci/menu.d/luci-app-commands.json:3
-#: applications/luci-app-commands/ucode/template/commands.ut:125
+#: applications/luci-app-commands/ucode/template/commands.ut:126
 msgid "Custom Commands"
 msgstr "Benutzerdefinierte Kommandos"
 
@@ -78,7 +78,7 @@ msgstr "Übersicht"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: applications/luci-app-commands/ucode/template/commands.ut:148
+#: applications/luci-app-commands/ucode/template/commands.ut:149
 msgid "Download"
 msgstr "Herunterladen"
 
@@ -86,9 +86,9 @@ msgstr "Herunterladen"
 msgid "Grant UCI access for luci-app-commands"
 msgstr "Gewähre UCI Zugriff auf luci-app-commands"
 
-#: applications/luci-app-commands/ucode/template/commands.ut:150
+#: applications/luci-app-commands/ucode/template/commands.ut:151
 msgid "Link"
-msgstr "Link"
+msgstr "Verknüpfung"
 
 #: applications/luci-app-commands/ucode/template/commands.ut:41
 msgid "Loading"
@@ -98,7 +98,7 @@ msgstr "Lade"
 msgid "Public access"
 msgstr "Öffentlicher Zugriff"
 
-#: applications/luci-app-commands/ucode/template/commands.ut:147
+#: applications/luci-app-commands/ucode/template/commands.ut:148
 msgid "Run"
 msgstr "Ausführen"
 
@@ -118,7 +118,7 @@ msgstr ""
 "Diese Seite ermöglicht die Konfiguration eigener Shell-Kommandos um diese "
 "einfach über das Webinterface ausführen zu können."
 
-#: applications/luci-app-commands/ucode/template/commands.ut:132
+#: applications/luci-app-commands/ucode/template/commands.ut:133
 msgid "This section contains no values yet"
 msgstr "Dieser Abschnitt enthält noch keine Werte"
 

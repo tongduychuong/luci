@@ -9,17 +9,17 @@
 'require dom';
 'require fs';
 
-let callPackagelist = rpc.declare({
+const callPackagelist = rpc.declare({
 	object: 'rpc-sys',
 	method: 'packagelist',
 });
 
-let callSystemBoard = rpc.declare({
+const callSystemBoard = rpc.declare({
 	object: 'system',
 	method: 'board',
 });
 
-let callUpgradeStart = rpc.declare({
+const callUpgradeStart = rpc.declare({
 	object: 'rpc-sys',
 	method: 'upgrade_start',
 	params: ['keep'],
@@ -60,23 +60,71 @@ function get_revision_count(revision) {
 
 return view.extend({
 	steps: {
-		init: [10, _('Received build request')],
-		download_imagebuilder: [20, _('Downloading ImageBuilder archive')],
-		unpack_imagebuilder: [40, _('Setting Up ImageBuilder')],
-		calculate_packages_hash: [60, _('Validate package selection')],
-		building_image: [80, _('Generating firmware image')],
+		init:                    [  0, _('Received build request')],
+		container_setup:         [ 10, _('Setting up ImageBuilder')],
+		validate_revision:       [ 20, _('Validating revision')],
+		validate_manifest:       [ 30, _('Validating package selection')],
+		calculate_packages_hash: [ 40, _('Calculating package hash')],
+		building_image:          [ 50, _('Generating firmware image')],
+		signing_images:          [ 95, _('Signing images')],
+		done:                    [100, _('Completed generating firmware image')],
+		failed:                  [100, _('Failed to generate firmware image')],
+
+		/* Obsolete status values, retained for backward compatibility. */
+		download_imagebuilder:   [ 20, _('Downloading ImageBuilder archive')],
+		unpack_imagebuilder:     [ 40, _('Setting Up ImageBuilder')],
 	},
 
 	request_hash: '',
 	sha256_unsigned: '',
+
+	applyPackageChanges: async function(package_info) {
+		let { url, target, version, packages } = package_info;
+
+		const overview_url = `${url}/api/v1/overview`;
+		const revision_url = `${url}/api/v1/revision/${version}/${target}`;
+
+		let changes, target_revision;
+
+		await Promise.all([
+			request.get(overview_url)
+				.then(response => response.json())
+				.then(json => json.branches)
+				.then(branches => branches[get_branch(version)])
+				.then(branch => { changes = branch.package_changes; })
+				.catch(error => {
+					throw Error(`Get overview failed:<br>${overview_url}<br>${error}`);
+				}),
+
+			request.get(revision_url)
+				.then(response => response.json())
+				.then(json => json.revision)
+				.then(revision => { target_revision = get_revision_count(revision); })
+				.catch(error => {
+					throw Error(`Get revision failed:<br>${revision_url}<br>${error}`);
+				}),
+		]);
+
+		for (const change of changes) {
+			let idx = packages.indexOf(change.source);
+			if (idx >= 0 && change.revision <= target_revision) {
+				if (change.target)
+					packages[idx] = change.target;
+				else
+					packages.splice(idx, 1);
+			}
+		}
+		return packages;
+	},
 
 	selectImage: function (images, data, firmware) {
 		var filesystemFilter = function(e) {
 			return (e.filesystem == firmware.filesystem);
 		}
 		var typeFilter = function(e) {
-			if (firmware.target.indexOf("x86") != -1) {
-				// x86 images can be combined-efi (EFI) or combined (BIOS)
+			let efi_targets = ['armsr', 'loongarch', 'x86'];
+			let efi_capable = efi_targets.some((tgt) => firmware.target.startsWith(tgt));
+			if (efi_capable) {
 				if (data.efi) {
 					return (e.type == 'combined-efi');
 				} else {
@@ -441,17 +489,15 @@ return view.extend({
 			} else {
 				const latest = response.json().latest;
 
+				// ensure order: newest to oldest release
+				latest.sort().reverse();
+
 				for (let remote_version of latest) {
 					let remote_branch = get_branch(remote_version);
 
 					// already latest version installed
 					if (version == remote_version) {
 						break;
-					}
-
-					// skip branch upgrades outside the advanced mode
-					if (branch != remote_branch && advanced_mode == 0) {
-						continue;
 					}
 
 					candidates.unshift([remote_version, null]);
@@ -531,17 +577,28 @@ return view.extend({
 									class: 'btn cbi-button cbi-button-positive important',
 									click: ui.createHandlerFn(this, function () {
 										map.save().then(() => {
-											const content = {
-												...firmware,
+											this.applyPackageChanges({
+												url,
+												target,
+												version:  mapdata.request.version,
 												packages: mapdata.request.packages,
-												version: mapdata.request.version,
-												profile: mapdata.request.profile
-											};
-											this.pollFn = L.bind(function () {
-												this.handleRequest(url, true, content, data, firmware);
-											}, this);
-											poll.add(this.pollFn, 5);
-											poll.start();
+											}).then((packages) => {
+												const content = {
+													...firmware,
+													packages: packages,
+													version: mapdata.request.version,
+													profile: mapdata.request.profile
+												};
+												this.pollFn = L.bind(function () {
+													this.handleRequest(url, true, content, data, firmware);
+												}, this);
+												poll.add(this.pollFn, 5);
+												poll.start();
+											})
+											.catch(error => {
+											    ui.addNotification(null, E('p', error.message));
+											    ui.hideModal();
+											});
 										});
 									}),
 								},
@@ -603,7 +660,7 @@ return view.extend({
 			E(
 				'p',
 				_(
-					'The attended sysupgrade service allows to easily upgrade vanilla and custom firmware images.'
+					'The attended sysupgrade service allows to upgrade vanilla and custom firmware images easily.'
 				)
 			),
 			E(
