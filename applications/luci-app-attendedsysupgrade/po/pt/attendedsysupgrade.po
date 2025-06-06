@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-04-25 05:53+0000\n"
-"Last-Translator: casquijo <noslenjunior@gmail.com>\n"
+"PO-Revision-Date: 2025-06-02 19:03+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsattendedsysupgrade/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.11.1-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:50
 msgid "A new %s version of OpenWrt is available:"
@@ -39,7 +39,7 @@ msgstr "Configuração do attendedsysupgrade."
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:37
 msgid "Available"
-msgstr ""
+msgstr "Disponível"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:557
 msgid "Board Name / Profile"
@@ -64,7 +64,7 @@ msgstr "Cancelar"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:53
 msgid "Check"
-msgstr ""
+msgstr "Verificar"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/configuration.js:35
 msgid "Client"
@@ -91,7 +91,7 @@ msgstr "Não foi possível alcançar a API em \"%s\". Tente novamente mais tarde
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:36
 msgid "Current"
-msgstr ""
+msgstr "Atual"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:565
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:674
@@ -144,7 +144,7 @@ msgstr "Sistema de ficheiros"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:20
 msgid "Firmware Version"
-msgstr ""
+msgstr "Versão do firmware"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:68
 msgid "Generating firmware image"
@@ -172,15 +172,15 @@ msgstr "Manter as definições e manter a configuração atual"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:26
 msgid "Kernel Version"
-msgstr ""
+msgstr "Versão do kernel"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:180
 msgid "Look online for upgrades upon status page load"
-msgstr ""
+msgstr "Procurar on-line por atualizações ao carregar a página de estado"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:49
 msgid "New Firmware Available"
-msgstr ""
+msgstr "Novo Firmware disponível"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:562
 msgid "New firmware upgrade available"
@@ -249,7 +249,7 @@ msgstr "Solicitação na posição %d de fila de construção"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:23
 msgid "Revision"
-msgstr ""
+msgstr "Revisão"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/attendedsysupgrade/overview.js:154
 msgid "SHA256"
@@ -356,77 +356,8 @@ msgstr "[instalado] %s"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:55
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #: applications/luci-app-attendedsysupgrade/htdocs/luci-static/resources/view/status/include/11_upgrades.js:56
 msgid "release notes"
-msgstr ""
-
-#~ msgid "Validate package selection"
-#~ msgstr "Validar a seleção de pacotes"
-
-#~ msgid "10% Received build request"
-#~ msgstr "10% do pedido da compilação foi recebido"
-
-#~ msgid "20% Downloading ImageBuilder archive"
-#~ msgstr "20% baixando o arquivo do ImageBuilder"
-
-#~ msgid "40% Setting Up ImageBuilder"
-#~ msgstr "40% configuração do ImageBuilder"
-
-#~ msgid "60% Validate package selection"
-#~ msgstr "60% validando a seleção do pacote"
-
-#~ msgid "80% Generating firmware image"
-#~ msgstr "80% gerando imagem de firmware"
-
-#~ msgid "Progress: %s"
-#~ msgstr "Progresso: %s"
-
-#~ msgid "Building firmware sysupgrade image"
-#~ msgstr "A construir a imagem de atualização do firmware"
-
-#~ msgid "Error building the sysupgrade"
-#~ msgstr "Erro ao compilar o sysupgrade"
-
-#~ msgid "File"
-#~ msgstr "Ficheiro"
-
-#~ msgid "Install Sysupgrade"
-#~ msgstr "Instalar o sysupgrade"
-
-#~ msgid "New upgrade available"
-#~ msgstr "Nova atualização disponível"
-
-#~ msgid "Request Sysupgrade"
-#~ msgstr "Solicitar sysupgrade"
-
-#~ msgid "Request to server:"
-#~ msgstr "Solicitação ao servidor:"
-
-#~ msgid "Search for sysupgrade"
-#~ msgstr "Procurar sysupgrade"
-
-#~ msgid "Successfully created sysupgrade image"
-#~ msgstr "Imagem de sysupgrade criada com sucesso"
-
-#~ msgid "Request in build queue position %d"
-#~ msgstr "Solicitação na posição %d de fila de construção"
-
-#~ msgid "Searching for an available sysupgrade"
-#~ msgstr "A procurar um sysupgrade disponível"
-
-#~ msgid "The device runs the latest firmware version"
-#~ msgstr "O aparelho executa a última versão de firmware"
-
-#~ msgid "Building the sysupgrade image"
-#~ msgstr "Compilar a imagem de sysupgrade"
-
-#~ msgid "Request in build queue"
-#~ msgstr "Solicitação na fila de compilação"
-
-#~ msgid "Advances Mode"
-#~ msgstr "Modo avançado"
-
-#~ msgid "attended sysupgrade via rpcd and luci"
-#~ msgstr "sysupgrade assistido via rpcd e luci"
+msgstr "notas de lançamento"
