@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-15 12:45+0000\n"
+"PO-Revision-Date: 2025-03-28 21:27+0000\n"
 "Last-Translator: KING APPS <kiperking1@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsdynapoint/fa/>\n"
@@ -20,7 +20,8 @@ msgstr "نام میزبان را به ssid اضافه کنید"
 
 #: applications/luci-app-dynapoint/luasrc/model/cbi/dynapoint.lua:31
 msgid "Append the router's hostname to the SSID when connectivity check fails"
-msgstr "هنگامی که بررسی اتصال ناموفق بود، نام میزبان روتر را به SSID اضافه کنید"
+msgstr ""
+"هنگامی که بررسی اتصال ناموفق بود، نام میزبان روتر را به SSID اضافه کنید"
 
 #: applications/luci-app-dynapoint/luasrc/model/cbi/dynapoint.lua:18
 msgid "Check Internet connectivity via HTTP header download"
@@ -36,7 +37,7 @@ msgstr "Curl در حال حاضر نصب نشده است. لطفا بسته را
 
 #: applications/luci-app-dynapoint/luasrc/model/cbi/dynapoint.lua:71
 msgid "Device"
-msgstr "افزاره"
+msgstr "دستگاه"
 
 #: applications/luci-app-dynapoint/luasrc/model/cbi/dynapoint.lua:66
 #: applications/luci-app-dynapoint/luasrc/view/dynapoint/cbi_color.htm:5

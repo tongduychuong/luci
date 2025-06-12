@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-14 04:38+0000\n"
-"Last-Translator: x86_64-pc-linux-gnu <x86_64-pc-linux-gnu@proton.me>\n"
+"PO-Revision-Date: 2025-03-28 12:16+0000\n"
+"Last-Translator: 翻譯得真好下次別翻了 <x86_64-pc-linux-gnu@proton.me>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsunbound/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -101,7 +101,7 @@ msgstr "DNS快取"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:51
 msgid "DNS Plugin"
-msgstr "DNS插件"
+msgstr "DNS外掛程式"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:64
 msgid "DNS over TLS"
@@ -139,7 +139,7 @@ msgstr "域不安全"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:81
 msgid "Domain name to verify TLS certificate"
-msgstr "用於驗證 TLS 證書的域名"
+msgstr "用於驗證TLS憑證的域名"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:174
 msgid "Domain suffix for this router and DHCP clients"
@@ -367,7 +367,7 @@ msgstr "限制 RFC5011 副本之間的天數，以減少快閃記憶體寫入"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:281
 msgid "Limit extended DNS packet size"
-msgstr "限制擴充套件 DNS 資料包大小"
+msgstr "限制擴展DNS封包大小"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:160
 msgid "Link to supported programs to load DHCP into DNS"
@@ -473,7 +473,8 @@ msgstr "注意：本地DNS是設置來查看odhpcd，但是odhpcd UCI租約觸�
 msgid ""
 "Organize directed forward, stub, and authoritative zones <a href=\"%s\" "
 "target=\"_blank\">(help)</a>."
-msgstr "組織定向轉送、存根和權威區域<a href=\"%s\" target=\"_blank\">（幫助）</a>。"
+msgstr ""
+"組織定向轉送、存根和權威區域<a href=\"%s\" target=\"_blank\">（幫助）</a>。"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:203
 msgid "Override the WAN side router entry in DNS"
@@ -502,11 +503,11 @@ msgstr "防止快取期過短"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:92
 msgid "Protect against upstream response of 127.0.0.0/8"
-msgstr "防止 127.0.0.0/8 的上游響應"
+msgstr "防止上游回應127.0.0.0/8"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:97
 msgid "Protect against upstream responses within local subnets"
-msgstr "防止本地子網內的上游響應"
+msgstr "防止本地子網內的上游回應"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:267
 msgid "Query Minimize"
@@ -791,19 +792,4 @@ msgstr "使用名稱伺服器"
 
 #: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:165
 msgid "with default certificate for <var>%s</var>"
-msgstr "使用 <var>%s</var> 的預設證書"
-
-#~ msgid "No Link"
-#~ msgstr "無連結"
-
-#~ msgid "Adblock domain list '"
-#~ msgstr "Adblock 域名列表'"
-
-#~ msgid "Cache Dump"
-#~ msgstr "快取轉儲"
-
-#~ msgid ""
-#~ "This shows Unbound 'cache_dump'. Useful to check if unbound is actually "
-#~ "caching dns entities."
-#~ msgstr ""
-#~ "顯示 Unbound的“cache_dump”。用於檢查 unbound 是否實際快取 dns 實體。"
+msgstr "使用 <var>%s</var> 的預設憑證"

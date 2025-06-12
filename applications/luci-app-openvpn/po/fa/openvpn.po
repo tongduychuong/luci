@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-19 19:35+0200\n"
-"PO-Revision-Date: 2025-03-15 12:22+0000\n"
+"PO-Revision-Date: 2025-03-28 21:27+0000\n"
 "Last-Translator: KING APPS <kiperking1@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsopenvpn/fa/>\n"
@@ -463,11 +463,11 @@ msgstr "سطح سیاست بیش از استفاده از برنامه ها و �
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:141
 msgid "Port"
-msgstr "درگاه"
+msgstr "پورت"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:156
 msgid "Protocol"
-msgstr "شیوه‌نامه"
+msgstr "پروتکل"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:537
 msgid "Proxy timeout in seconds"
@@ -811,7 +811,7 @@ msgstr "از نام کاربری به عنوان نام مشترک استفاد�
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:380
 msgid "VPN"
-msgstr "وی‌پی‌ان"
+msgstr "شبکه خصوصی مجازی"
 
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn-advanced.lua:205
 msgid ""
@@ -844,32 +844,3 @@ msgstr "زمان عدم فعالیت tun/tap"
 #: applications/luci-app-openvpn/luasrc/model/cbi/openvpn.lua:111
 msgid "yes (%i)"
 msgstr "بله (%i)"
-
-#~ msgid ""
-#~ "The OVPN config file (%s) could not be found, please check your "
-#~ "configuration."
-#~ msgstr "فایل پیکربندی OVPN (%s) یافت نشد، لطفا پیکربندی خود را بررسی کنید."
-
-#~ msgid "Enable a compression algorithm"
-#~ msgstr "فعالسازی الگوریتم فشرده سازی"
-
-#~ msgid "Daemonize after initialization"
-#~ msgstr "Daemonize after initialization"
-
-#~ msgid "Get PEM password from controlling tty before we daemonize"
-#~ msgstr "Get PEM password from controlling tty before we daemonize"
-
-#~ msgid "Output to syslog and do not daemonize"
-#~ msgstr "Output to syslog and do not daemonize"
-
-#~ msgid "Run as an inetd or xinetd server"
-#~ msgstr "Run as an inetd or xinetd server"
-
-#~ msgid "Set GID to group"
-#~ msgstr "Set GID to group"
-
-#~ msgid "Set UID to user"
-#~ msgstr "Set UID to user"
-
-#~ msgid "Write process ID to file"
-#~ msgstr "Write process ID to file"

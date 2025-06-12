@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-19 06:03+0000\n"
-"Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-03-31 03:46+0000\n"
+"Last-Translator: 翻譯得真好下次別翻了 <x86_64-pc-linux-gnu@proton.me>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsacme/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:28
 #: applications/luci-app-acme/root/usr/share/luci/menu.d/luci-app-acme.json:3
@@ -124,7 +124,7 @@ msgstr "啟用除錯日誌"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:62
 msgid "Enabled"
-msgstr "啟用"
+msgstr "已啟用"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:57
 msgid "General Settings"
@@ -227,8 +227,8 @@ msgid ""
 "official/acme.sh/wiki/DNS-alias-mode for the details of this process. LUCI "
 "only supports one challenge alias per certificate."
 msgstr ""
-"所有網域使用的Challenge別名；請參閱https://github.com/acmesh-official/acme."
-"sh/wiki/DNS-alias-mode以獲得行程的詳細資訊。LuCI僅支援每個憑證擁有唯一"
+"所有網域使用的Challenge別名；請參閱https://github.com/acmesh-official/"
+"acme.sh/wiki/DNS-alias-mode以獲得行程的詳細資訊。LuCI僅支援每個憑證擁有唯一"
 "Challenge 別名。"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:448
@@ -265,10 +265,10 @@ msgid ""
 "address. Once configured, issuing certificates can take a while. Check the "
 "logs for progress and any errors."
 msgstr ""
-"您可以在這裡配置ACME(Letsencrypt)來實現憑證的自動安裝；"
-"簡單填寫該設定將為路由器Web介面取得藉由Let's "
-"Encrypt頒發的憑證。請注意：憑證中的網域必須指向路由器公共IP位址。設定完成後憑"
-"證的頒發需要一段時間，請檢視日誌來取得其進展和任何錯誤。"
+"您可以在這裡配置ACME(Letsencrypt)來實現憑證的自動安裝；簡單填寫該設定將為路由"
+"器Web介面取得藉由Let's Encrypt頒發的憑證。請注意：憑證中的網域必須指向路由器"
+"公共IP位址。設定完成後憑證的頒發需要一段時間，請檢視日誌來取得其進展和任何錯"
+"誤。"
 
 #: applications/luci-app-acme/htdocs/luci-static/resources/view/acme.js:300
 msgid "This is usually NOT an email address"
@@ -318,8 +318,5 @@ msgid ""
 "Acme in webroot mode. The web server must be accessible from the internet on "
 "port 80."
 msgstr ""
-"Web伺服器根目錄；設定Web伺服器文件的根目錄以在「Webroot "
-"模式」下執行ACME。Web伺服器的80連接埠必須允許從Internet存取。"
-
-#~ msgid "Custom ACME CA"
-#~ msgstr "自訂 ACME CA"
+"Web伺服器根目錄；設定Web伺服器文件的根目錄以在「Webroot 模式」下執行ACME。Web"
+"伺服器的80連接埠必須允許從Internet存取。"
