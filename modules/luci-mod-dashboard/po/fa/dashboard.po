@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-10-17 17:11+0000\n"
-"Last-Translator: Crysys_1379 <mahdi137921@gmail.com>\n"
+"PO-Revision-Date: 2025-04-01 17:33+0000\n"
+"Last-Translator: KING APPS <kiperking1@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/openwrt/"
 "lucimodulesluci-mod-dashboard/fa/>\n"
 "Language: fa\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8-rc\n"
+"X-Generator: Weblate 5.11-dev\n"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/30_wifi.js:155
 msgid "Active"
-msgstr "فعّال"
+msgstr "فعال"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/10_router.js:317
 msgid "Architecture"
@@ -111,12 +111,12 @@ msgstr "Hostname"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/20_lan.js:41
 msgid "IP Address"
-msgstr "آدرس آی پی"
+msgstr "آدرس IP"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/10_router.js:204
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/20_lan.js:109
 msgid "IPv4"
-msgstr "آی پی نسخه ۴"
+msgstr "IPv4"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/10_router.js:183
 msgid "IPv4 Internet"
@@ -170,7 +170,7 @@ msgstr "متصل نیست"
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/10_router.js:198
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/10_router.js:238
 msgid "Protocol"
-msgstr "شیوه‌نامه"
+msgstr "پروتکل"
 
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/30_wifi.js:82
 #: modules/luci-mod-dashboard/htdocs/luci-static/resources/view/dashboard/include/30_wifi.js:149
