@@ -18,6 +18,11 @@ var callSystemInfo = rpc.declare({
 	method: 'info'
 });
 
+var callCPUUsage = rpc.declare({
+	object: 'luci',
+	method: 'getCPUUsage'
+});
+
 return baseclass.extend({
 	title: _('System'),
 
@@ -25,26 +30,17 @@ return baseclass.extend({
 		return Promise.all([
 			L.resolveDefault(callSystemBoard(), {}),
 			L.resolveDefault(callSystemInfo(), {}),
-			L.resolveDefault(callLuciVersion(), { revision: _('unknown version'), branch: 'LuCI' }),
-			fs.lines('/sys/kernel/debug/qca-nss-drv/stats/cpu_load_ubi').then(L.bind(function(lines) {
-			  var stats = [];
-			  for (var i = 0; i < lines.length; i++) {
-				  if (lines[i].match(/%/)) {
-					var stat = lines[i].split(/\s+/);
-					stats['avg'] = stat[1];
-					stats['max'] = stat[2];
-					return stats;
-				  }
-			  }
-			}))
-		]);
+			L.resolveDefault(callCPUUsage(), {}),
+			L.resolveDefault(callLuciVersion(), { revision: _('unknown version'), branch: 'LuCI' })
+		]);	
 	},
 
 	render: function(data) {
 		var boardinfo   = data[0],
 		    systeminfo  = data[1],
-		    luciversion = data[2],
-		    nssinfo     = data[3];
+		    cpuusage    = data[2],
+		    luciversion = data[3],
+		    nssinfo     = data[4];
 
 		luciversion = luciversion.branch + ' ' + luciversion.revision;
 
@@ -76,7 +72,8 @@ return baseclass.extend({
 				systeminfo.load[0] / 65535.0,
 				systeminfo.load[1] / 65535.0,
 				systeminfo.load[2] / 65535.0
-			) : null
+			) : null,
+			_('CPU usage (%)'),    cpuusage.cpuusage
 		];
 
 		var table = E('table', { 'class': 'table' });
