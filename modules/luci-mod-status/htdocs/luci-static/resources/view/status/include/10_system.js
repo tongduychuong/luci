@@ -25,14 +25,26 @@ return baseclass.extend({
 		return Promise.all([
 			L.resolveDefault(callSystemBoard(), {}),
 			L.resolveDefault(callSystemInfo(), {}),
-			L.resolveDefault(callLuciVersion(), { revision: _('unknown version'), branch: 'LuCI' })
+			L.resolveDefault(callLuciVersion(), { revision: _('unknown version'), branch: 'LuCI' }),
+			fs.lines('/sys/kernel/debug/qca-nss-drv/stats/cpu_load_ubi').then(L.bind(function(lines) {
+			  var stats = [];
+			  for (var i = 0; i < lines.length; i++) {
+				  if (lines[i].match(/%/)) {
+					var stat = lines[i].split(/\s+/);
+					stats['avg'] = stat[1];
+					stats['max'] = stat[2];
+					return stats;
+				  }
+			  }
+			}))
 		]);
 	},
 
 	render: function(data) {
 		var boardinfo   = data[0],
 		    systeminfo  = data[1],
-		    luciversion = data[2];
+		    luciversion = data[2],
+		    nssinfo     = data[3];
 
 		luciversion = luciversion.branch + ' ' + luciversion.revision;
 
